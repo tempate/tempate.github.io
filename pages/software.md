@@ -1,7 +1,9 @@
 ---
+layout: default
 title: Software
 permalink: /software/
 ---
+[Home](/) · [Publications](/publications/) · [Software](/software/)
 
 - **Ataxx [Engine](https://github.com/Tempate/Funes) and [Server](https://github.com/Tempate/litaxx)**
   * **Date:** October, 2020

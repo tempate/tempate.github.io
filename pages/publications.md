@@ -1,7 +1,9 @@
 ---
+layout: default
 title: Publications
 permalink: /publications/
 ---
+[Home](/) · [Publications](/publications/) · [Software](/software/)
 
 ### Research Papers
 

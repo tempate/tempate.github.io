@@ -1,6 +1,7 @@
 ---
 title: About me
 ---
+[Home](/) · [Publications](/publications/) · [Software](/software/)
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <img src="/assets/images/me.jpg" alt="My photo" style="width:200px;">
