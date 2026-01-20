@@ -15,7 +15,7 @@ permalink: /software/
   * **Date:** March, 2018
   * **Description:**  An 8-bit computer with schematics for each component.
 
-- **Personal [Website](https://github.com/Tempate/Personal-Website)**
+- **[Algorithms](https://github.com/Tempate/Personal-Website)**
   * **Date:** June, 2018
   * **Description:** A [website](https://danidiaz.onrender.com/) with classic algorithms.
 
