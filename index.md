@@ -3,24 +3,24 @@ title: About me
 ---
 [Home](/) · [Publications](/publications/) · [Software](/software/)
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="/assets/images/me.jpg" alt="My photo" style="width:200px;">
-  <div>
-    <p>
-      I am a 25-year-old from Madrid pursuing a Master's degree in Mathematics and Statistics at the University of Helsinki.
-    </p>
+I am Master's student in Mathematics and Statistics at the University of Helsinki. My research interests are (in no particular order):
 
-    My research interests are:
+**Mathematics:**
+<ul>
+  <li>Model Theory</li>
+  <li>Proof Theory</li>
+  <li>Type Theory</li>
+  <li>Algebraic Topology</li>
+</ul>
 
-    <ul>
-      <li>Formally Explainable Machine Learning</li>
-      <li>Set Theory</li>
-      <li>Algebraic Topology</li>
-      <li>Natural Language Processing</li>
-    </ul>
+**Computer Science:**
+<ul>
+  <li>Automated Deduction</li>
+  <li>Formally Explainable Machine Learning</li>
+  <li>Natural Language Processing</li>
+  <li>Brain-Computer Interfaces</li>
+  <li>Formal Methods</li>
+  <li>Algorithms</li>
+</ul>
 
-    <p>
-      Feel free to contact me at diazdani 'at' helsinki.fi.
-    </p>
-  </div>
-</div>
+Outside of work and studies, I like to run, hike, travel, read, write, and play chess and go. I also recently started learning to play the piano.
