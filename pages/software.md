@@ -5,6 +5,8 @@ permalink: /software/
 ---
 ### [Home](/) · [Publications](/publications/) · [Teaching](/teaching/) · [Software](/software/)
 
+### Software
+
 - **Ataxx Engine and Server**<br>
 A C++ engine for the game Ataxx and a server to play Attax online. 2020. [Link](https://github.com/Tempate/Funes) and [link](https://github.com/Tempate/litaxx).
 

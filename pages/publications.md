@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 ### [Home](/) · [Publications](/publications/) · [Teaching](/teaching/) · [Software](/software/)
 
-### Research Papers
+### Publications
 
 #### Conference Papers
 
