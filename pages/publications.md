@@ -21,7 +21,7 @@ Department of Computer Science, Aalto University, 2025. [Link](/assets/papers/ab
 
 #### Theses
 
-- **Projective and Plane Curves**<br>
+- **Projective and Plane Curves: a relation between algebra, topology, and complex analysis**<br>
 Department of Mathematics, Universidad Politécnica de Madrid, 2022. [Link](https://oa.upm.es/70899/).
 
 #### Books
