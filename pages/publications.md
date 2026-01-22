@@ -3,7 +3,7 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
-### [Home](/) · [Publications](/publications/) · [Software](/software/)
+### [Home](/) · [Publications](/publications/) · [Teaching](/teaching/) · [Software](/software/)
 
 ### Research Papers
 

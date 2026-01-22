@@ -1,7 +1,7 @@
 ---
 title: About me
 ---
-### [Home](/) · [Publications](/publications/) · [Software](/software/)
+### [Home](/) · [Publications](/publications/) · [Teaching](/teaching/) · [Software](/software/)
 
 I am Master's student in Mathematics and Statistics at the University of Helsinki. My research interests are (in no particular order):
 
