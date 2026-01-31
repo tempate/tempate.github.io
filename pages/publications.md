@@ -18,12 +18,7 @@ Department of Computer Science, Aalto University, 2025. [Link](/assets/papers/ab
 ### Theses
 
 - **Projective and Plane Curves: a relation between algebra, topology, and complex analysis**<br>
-Department of Mathematics, Universidad Politécnica de Madrid, 2022. [Link](https://oa.upm.es/70899/).
-
-### Books
-
-- **Mi Esperanza**<br>
-Madrid, 2025. [PDF](/assets/books/Mi Esperanza - Daniel Díaz Quílez.pdf), [EPUB](/assets/books/Mi Esperanza - Daniel Díaz Quílez.epub), [Paperback](https://www.amazon.es/-/en/Mi-Esperanza-Daniel-D%C3%ADaz-Qu%C3%ADlez/dp/B0GCVS83G4/).
+Bachelor's Thesis. Department of Mathematics, Universidad Politécnica de Madrid, 2022. [Link](https://oa.upm.es/70899/).
 
 ### Articles
 
@@ -32,3 +27,8 @@ Department of Philosophy, University of Helsinki, 2025. [Link](/assets/papers/be
 
 - **Predicting a Subject’s Card with the Muse-S headband**<br>
 Department of Computer Science, Lund University, 2022. [Link](/assets/papers/predicting_a_subjects_card_with_the_muse_S_headband.pdf).
+
+### Others
+
+- **Mi Esperanza**<br>
+Madrid, 2025. [PDF](/assets/books/Mi Esperanza - Daniel Díaz Quílez.pdf), [EPUB](/assets/books/Mi Esperanza - Daniel Díaz Quílez.epub), [Paperback](https://www.amazon.es/-/en/Mi-Esperanza-Daniel-D%C3%ADaz-Qu%C3%ADlez/dp/B0GCVS83G4/).
