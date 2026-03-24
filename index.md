@@ -13,6 +13,7 @@ title: Home
     <div class="interest-card-title">Mathematics</div>
     <ul>
       <li>Model Theory</li>
+      <li>Set Theory</li>
       <li>Proof Theory</li>
       <li>Type Theory</li>
       <li>Algebraic Topology</li>
@@ -21,14 +22,13 @@ title: Home
   <div class="interest-card">
     <div class="interest-card-title">Computer Science</div>
     <ul>
-      <li>Automated Deduction</li>
+      <li>Symbolic AI</li>
+      <li>Automated Theorem Proving</li>
       <li>Formally Explainable ML</li>
-      <li>Natural Language Processing</li>
       <li>Brain-Computer Interfaces</li>
-      <li>Formal Methods</li>
       <li>Algorithms</li>
     </ul>
   </div>
 </div>
 
-<p class="hobbies-row">Outside of work and studies, I like to run, hike, travel, read, write, and play chess and go. I recently started learning the piano.</p>
+<p>Outside of work and studies, I like to run, hike, travel, read, write, and play chess and go. I recently started learning to play the piano.</p>
