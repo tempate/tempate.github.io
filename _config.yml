@@ -1,21 +1,3 @@
-theme: jekyll-theme-minimal
 title: Daniel Díaz Quílez
-logo: /assets/images/me.jpg
-description: >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  Master's student in mathematics<br>
-  <a href="mailto:daniel.diaz@helsinki.fi" style="color: grey;">
-    <i class="fa-solid fa-envelope"></i> Email
-  </a><br>
-  <a href="https://github.com/tempate" style="color: grey;">
-    <i class="fa-brands fa-github"></i> Github
-  </a><br>
-  <a href="https://scholar.google.com/citations?user=UsqQPVUAAAAJ&hl=en" style="color: grey;">
-    <i class="fa-brands fa-google-scholar"></i> Google Scholar
-  </a><br>
-show_downloads: false
-google_analytics:
-
-header_pages:
-  - publications.md
-  - software.md
+description: Master's student in Mathematics and Statistics
+url: "https://tempate.github.io"

@@ -1,35 +1,53 @@
 ---
 layout: default
 title: Software
-permalink: /software/
 ---
-### [Home](/) · [Publications](/publications/) · [Teaching](/teaching/) · [Software](/software/)
 
-### Software
+<h1 class="page-heading">Software</h1>
 
-- **VeriClux**<br>
-A program to generate, analyze, and validate explanations for groups of samples in neural networks. 2025. [Link](https://github.com/tempate/VeriCluX).
-
-- **Prophet**<br>
-A NLP program to predict the life expectancy of heart transplantation surgery patients from operational reports. 2022. [Link](https://github.com/tempate/Prophet).
-
-- **Spell Checker**<br>
-A spell-checker. 2021. [Link](https://github.com/tempate/SpellingCorrector).
-
-- **Ataxx Engine and Server**<br>
-An engine written in C++ for the game Ataxx and a server to play Attax online. 2020. [Link](https://github.com/Tempate/Funes) and [link](https://github.com/Tempate/litaxx).
-
-- **Chess Engine**<br>
-A chess engine written in C using alpha-beta pruning. In the 40/15 [CCRL ranking](https://www.computerchess.org.uk/ccrl/4040/cgi/engine_details.cgi?print=Details&each_game=0&eng=Achillees%201.0%2064-bit#Achillees_1_0_64-bit), it reached #290 with 2250 ELO. 2019. [Link](https://github.com/Tempate/Achillees)
-
-- **8-bit Computer**<br>
-An 8-bit computer with schematics for each component. 2018. [Link](https://github.com/Tempate/8-bit)
-
-- **Algorithms**<br>
-A [website](https://danidiaz.onrender.com/) written in JavaScript with classic algorithms. 2018. [Link](https://github.com/Tempate/Personal-Website).
-
-- **Skilly**<br>
-A game that reached over 5,000 downloads in the AppStore. 2015.
-
-- **Paper Fight**<br>
-A game that reached over 5,000 downloads in the AppStore. 2014.
+<div class="software-grid">
+<div class="sw-card">
+    <div class="sw-card-name">VeriClux</div>
+    <div class="sw-card-desc">Formal verification tool.</div>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Prophet</div>
+    <div class="sw-card-desc">Prediction and forecasting system.</div>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Spell Checker</div>
+    <div class="sw-card-desc">A spell-checking utility.</div>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Ataxx Engine &amp; Server</div>
+    <div class="sw-card-desc">Game engine and server for the Ataxx board game.</div>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Chess Engine — Achillees</div>
+    <div class="sw-card-desc">A chess engine in C using alpha-beta pruning. Reached #290 in the 40/15 CCRL ranking with 2250 ELO.</div>
+    <div class="sw-card-year">2019</div>
+    <a class="sw-card-link" href="https://github.com/Tempate/Achillees" target="_blank">GitHub →</a>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">8-bit Computer</div>
+    <div class="sw-card-desc">A fully designed 8-bit computer with schematics for each component.</div>
+    <div class="sw-card-year">2018</div>
+    <a class="sw-card-link" href="https://github.com/Tempate/8-bit" target="_blank">GitHub →</a>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Algorithms</div>
+    <div class="sw-card-desc">A JavaScript website showcasing classic algorithms with interactive visualisations.</div>
+    <div class="sw-card-year">2018</div>
+    <a class="sw-card-link" href="https://danidiaz.onrender.com/" target="_blank">Live site →</a>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Skilly</div>
+    <div class="sw-card-desc">iOS game — over 5,000 downloads on the App Store.</div>
+    <div class="sw-card-year">2015</div>
+</div>
+<div class="sw-card">
+    <div class="sw-card-name">Paper Fight</div>
+    <div class="sw-card-desc">iOS game — over 5,000 downloads on the App Store.</div>
+    <div class="sw-card-year">2014</div>
+</div>
+</div>
