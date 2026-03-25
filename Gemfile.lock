@@ -310,6 +310,7 @@ PLATFORMS
 DEPENDENCIES
   erb (~> 6.0)
   github-pages
+  jekyll-sitemap
 
 CHECKSUMS
   activesupport (8.1.2.1) sha256=beec20ced12ad569194554399449a6372fdab03061b8f48a9ed6ef9b7dc251b2

@@ -1,3 +1,6 @@
 title: Daniel Díaz Quílez
 description: Master's student in Mathematics and Statistics
 url: "https://tempate.github.io"
+
+plugins:
+  - jekyll-sitemap
