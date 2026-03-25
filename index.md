@@ -4,7 +4,6 @@ title: Home
 ---
 
 <div class="page-label">About</div>
-<h1 class="page-heading">Hello, I'm Daniel.</h1>
 
 <p>I am a Master's student in Mathematics and Statistics at the University of Helsinki. My work sits at the intersection of mathematical logic, theoretical computer science, and artificial intelligence.</p>
 
