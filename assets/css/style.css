@@ -48,7 +48,6 @@ body {
     height: 180px;
     border-radius: 4px;
     object-fit: cover;
-    border: 2px solid rgba(91,143,194,0.5);
     margin-bottom: 20px;
     display: block;
 }
