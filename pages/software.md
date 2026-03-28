@@ -37,12 +37,4 @@ title: Software
     <div class="sw-card-desc">Classic algorithms with interactive visualisations.</div>
     <a class="sw-card-link" href="https://github.com/Tempate/Personal-Website" target="_blank">GitHub</a> <a class="sw-card-link" href="https://danidiaz.onrender.com/" target="_blank">Live site</a>
 </div>
-<div class="sw-card">
-    <div class="sw-card-name">Skilly</div>
-    <div class="sw-card-desc">iOS game — over 5,000 downloads on the App Store.</div>
-</div>
-<div class="sw-card">
-    <div class="sw-card-name">Paper Fight</div>
-    <div class="sw-card-desc">iOS game — over 5,000 downloads on the App Store.</div>
-</div>
 </div>
