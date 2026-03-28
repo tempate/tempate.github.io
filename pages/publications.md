@@ -10,7 +10,7 @@ title: Publications
 <ul class="pub-list">
 <li class="pub-item">
     <span class="pub-title">Using Operative Reports to Predict Heart Transplantation Survival</span>
-    <span class="pub-meta">IEEE Open Journal of Engineering in Medice and Biology — 2022</span>
+    <span class="pub-meta">IEEE Open Journal of Engineering in Medicine and Biology — 2022</span>
     <span class="pub-meta">Marcus Klang, Daniel Diaz, Dennis Medved, Pierre Nugues, Johan Nilsson</span>
     <div class="pub-links">
     <a class="pub-link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank">Link</a>
@@ -25,7 +25,7 @@ title: Publications
     <span class="pub-meta">Department of Computer Science, Aalto University — 2025</span>
     <span class="pub-meta">Daniel Diaz Quilez, Tuomo Lehtonen</span>
     <div class="pub-links">
-    <a class="pub-link" href="https://tempate.github.io/assets/papers/abductive_explanations_for_groups_of_similar_samples.pdf" target="_blank">PDF</a>
+    <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf" target="_blank">PDF</a>
     </div>
 </li>
 </ul>
@@ -49,7 +49,7 @@ title: Publications
     <span class="pub-meta">Department of Philosophy, University of Helsinki — 2025</span>
     <span class="pub-meta">Daniel Diaz Quilez</span>
     <div class="pub-links">
-    <a class="pub-link" href="https://tempate.github.io/assets/papers/belief_updates_through_dynamic_modal_logic.pdf" target="_blank">PDF</a>
+    <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/belief_updates_through_dynamic_modal_logic.pdf" target="_blank">PDF</a>
     </div>
 </li>
 <li class="pub-item">
@@ -62,7 +62,7 @@ title: Publications
 </li>
 </ul>
 
-<h2 class="section-heading">Others</h2>
+<h2 class="section-heading">Creative Writing</h2>
 <ul class="pub-list">
 <li class="pub-item">
     <span class="pub-title">Mi Esperanza</span>
