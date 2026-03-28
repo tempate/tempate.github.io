@@ -5,7 +5,6 @@
     --bg2:       #f1f1ef;
     --ink:       #18181a;
     --ink2:      #3c3c40;
-    --ink3:      #88888e;
     --gold:      #3a6b9e;
     --gold-lt:   #5b8fc2;
     --border:    rgba(24,24,26,0.10);
@@ -33,8 +32,8 @@ body {
 .sidebar {
     width: var(--sidebar-w);
     min-height: 100vh;
-    background: #18212e;
-    color: var(--bg);
+    /* background: #18212e; */
+    color: var(--ink2);
     display: flex;
     flex-direction: column;
     padding: 48px 28px 40px;
@@ -66,7 +65,7 @@ body {
     font-family: var(--mono);
     font-size: 0.65rem;
     font-weight: 300;
-    color: var(--ink3);
+    color: var(--ink2);
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 28px;
@@ -83,7 +82,7 @@ body {
     font-family: var(--mono);
     font-size: 0.72rem;
     font-weight: 400;
-    color: var(--ink3);
+    color: var(--ink2);
     text-decoration: none;
     letter-spacing: 0.04em;
     display: flex;
@@ -109,7 +108,7 @@ nav a {
     font-size: 0.7rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--ink3);
+    color: var(--ink2);
     text-decoration: none;
     padding: 10px 0;
     border-top: 1px solid rgba(255,255,255,0.07);
@@ -119,10 +118,10 @@ nav a {
 
 nav a:last-child { border-bottom: 1px solid rgba(255,255,255,0.07); }
 
-nav a:hover { color: var(--bg); padding-left: 6px; }
+nav a:hover { color: var(--gold-lt); padding-left: 6px; }
 
 nav a.active {
-    color: var(--gold-lt);
+    color: var(--gold);
     padding-left: 6px;
 }
 
@@ -267,7 +266,7 @@ p:last-child { margin-bottom: 0; }
 .hobbies-row {
     margin-top: 28px;
     font-size: 0.92rem;
-    color: var(--ink3);
+    color: var(--ink2);
     font-style: italic;
     line-height: 1.6;
 }
@@ -296,7 +295,7 @@ p:last-child { margin-bottom: 0; }
     font-family: var(--mono);
     font-size: 0.68rem;
     font-weight: 300;
-    color: var(--ink3);
+    color: var(--ink2);
     letter-spacing: 0.03em;
 }
 
@@ -344,7 +343,7 @@ p:last-child { margin-bottom: 0; }
     font-family: var(--mono);
     font-size: 0.68rem;
     font-weight: 300;
-    color: var(--ink3);
+    color: var(--ink2);
 }
 
 .teaching-link {
@@ -392,7 +391,7 @@ p:last-child { margin-bottom: 0; }
 
 .sw-card-desc {
     font-size: 0.87rem;
-    color: var(--ink3);
+    color: var(--ink2);
     line-height: 1.55;
     flex: 1;
 }
@@ -401,7 +400,7 @@ p:last-child { margin-bottom: 0; }
     font-family: var(--mono);
     font-size: 0.63rem;
     font-weight: 300;
-    color: var(--ink3);
+    color: var(--ink2);
     letter-spacing: 0.05em;
 }
 
@@ -427,7 +426,7 @@ p:last-child { margin-bottom: 0; }
     border-top: 1px solid var(--border);
     font-family: var(--mono);
     font-size: 0.6rem;
-    color: var(--ink3);
+    color: var(--ink2);
     letter-spacing: 0.05em;
     opacity: 0.7;
 }
