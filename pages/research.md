@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Publications
+title: Research
 ---
 
-<div class="page-label">Research</div>
-<h1 class="page-heading">Publications</h1>
+<div class="page-label">Writings</div>
+<h1 class="page-heading">Research</h1>
 
-<h2 class="section-heading">Conference Papers</h2>
+<h2 class="section-heading">Published Papers</h2>
 <ul class="pub-list">
 <li class="pub-item">
     <span class="pub-title">Using Operative Reports to Predict Heart Transplantation Survival</span>
@@ -42,7 +42,7 @@ title: Publications
 </li>
 </ul>
 
-<h2 class="section-heading">Unpublished Papers</h2>
+<h2 class="section-heading">Course Papers</h2>
 <ul class="pub-list">
 <li class="pub-item">
     <span class="pub-title">Belief Updates through Dynamic Modal Logic</span>
