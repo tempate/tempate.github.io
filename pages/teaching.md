@@ -10,6 +10,7 @@ title: Teaching
 <li class="teaching-item">
     <span class="teaching-title">Basics of Mathematics and Machine Learning II</span>
     <span class="teaching-meta">Teaching assistant · University of Helsinki · 2025, 2026</span>
+    <span class="teaching-meta">In 2025, I gave two lectures.</span>
     <a class="teaching-link" href="https://studies.helsinki.fi/courses/course-unit/otm-4851899d-9eb0-4618-ae2a-b9551fd5fd91" target="_blank">Link</a>
 </li>
 <li class="teaching-item">
