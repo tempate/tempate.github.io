@@ -41,7 +41,7 @@ title: Software
 </div>
 
 <div class="sw-card">
-    <div class="sw-card-name">Algorithms</div>
+    <div class="sw-card-name">Algorithm Atlas</div>
     <div class="sw-card-desc">Interactive visualizations of algorithms from AI to cryptography.</div>
     <div class="sw-card-link">
         <a class="sw-card-link" href="https://github.com/Tempate/Personal-Website" target="_blank">GitHub</a>
