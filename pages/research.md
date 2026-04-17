@@ -14,6 +14,7 @@ title: Research
     <span class="pub-meta">Marcus Klang, Daniel Díaz, Dennis Medved, Pierre Nugues, Johan Nilsson</span>
     <div class="pub-links">
     <a class="pub-link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank">Link</a>
+    <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/using_operative_reports_to_predict_heart_transplantation_survival.pdf" target="_blank">PDF</a>
     </div>
 </li>
 </ul>
@@ -25,6 +26,7 @@ title: Research
     <span class="pub-meta">Department of Computer Science, Aalto University — 2025</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tuomo Lehtonen</span>
     <div class="pub-links">
+    <a class="pub-link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank">Link</a>
     <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf" target="_blank">PDF</a>
     </div>
 </li>
@@ -38,6 +40,7 @@ title: Research
     <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
     <div class="pub-links">
     <a class="pub-link" href="https://oa.upm.es/70899/" target="_blank">Link</a>
+    <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/projective_and_plane_curves.pdf" target="_blank">PDF</a>
     </div>
 </li>
 </ul>
