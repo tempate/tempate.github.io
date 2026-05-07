@@ -35,7 +35,15 @@ title: Research
 <h2 class="section-heading">Theses</h2>
 <ul class="pub-list">
 <li class="pub-item">
-    <span class="pub-title">Projective and Plane Curves: a relation between algebra, topology, and complex analysis</span>
+    <span class="pub-title">Simple Geometry without Coordinates: Building an Exotic Plane with Model Theory</span>
+    <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
+    <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
+    <div class="pub-links">
+    <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/simple_geometry_without_coordinates.pdf" target="_blank">PDF</a>
+    </div>
+</li>
+<li class="pub-item">
+    <span class="pub-title">Projective and Plane Curves: A relation between Algebra, Topology, and Complex Analysis</span>
     <span class="pub-meta">Bachelor’s Thesis. Department of Mathematics, Universidad Politécnica de Madrid — 2022</span>
     <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
     <div class="pub-links">
