@@ -3,7 +3,6 @@ layout: default
 title: Software
 ---
 
-<div class="page-label">Projects</div>
 <h1 class="page-heading">Software</h1>
 
 <div class="software-grid">

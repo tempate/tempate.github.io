@@ -3,7 +3,6 @@ layout: default
 title: Research
 ---
 
-<div class="page-label">Writings</div>
 <h1 class="page-heading">Research</h1>
 
 <h2 class="section-heading">Published Papers</h2>

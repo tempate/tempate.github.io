@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="page-label">About</div>
 <h1 class="page-heading">Daniel Díaz Quílez</h1>
 
 <p>I am a master's student in Mathematics at the University of Helsinki, specializing in mathematical and computational logic.</p>

@@ -3,7 +3,6 @@ layout: default
 title: Teaching
 ---
 
-<div class="page-label">Education</div>
 <h1 class="page-heading">Teaching</h1>
 
 <ul class="teaching-list">
