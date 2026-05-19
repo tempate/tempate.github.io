@@ -99,8 +99,6 @@ body {
 }
 
 /* NAV */
-nav { margin-top: auto; }
-
 nav a {
     display: block;
     font-family: var(--mono);
