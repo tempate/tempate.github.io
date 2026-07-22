@@ -159,6 +159,27 @@ nav a.active {
     max-width: 820px;
 }
 
+.links { display: flex; gap: 10px; margin-top: 4px; }
+
+.link {
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+    border: 1px solid rgba(58,107,158,0.4);
+    padding: 2px 7px;
+    border-radius: 2px;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.link:hover {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: #fff;
+}
+
 /* ── SECTIONS ─────────────────────────────── */
 .section {
     display: none;
@@ -296,27 +317,6 @@ p:last-child { margin-bottom: 0; }
     letter-spacing: 0.03em;
 }
 
-.pub-links { display: flex; gap: 10px; margin-top: 4px; }
-
-.pub-link {
-    font-family: var(--mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--gold);
-    text-decoration: none;
-    border: 1px solid rgba(58,107,158,0.4);
-    padding: 2px 7px;
-    border-radius: 2px;
-    transition: background 0.15s, color 0.15s, border-color 0.15s;
-}
-
-.pub-link:hover {
-    background: var(--gold);
-    border-color: var(--gold);
-    color: #fff;
-}
-
 /* ── TEACHING LIST ────────────────────────── */
 .teaching-list { list-style: none; padding: 0; }
 
@@ -342,19 +342,6 @@ p:last-child { margin-bottom: 0; }
     font-weight: 300;
     color: var(--ink2);
 }
-
-.teaching-link {
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--gold);
-    text-decoration: none;
-    margin-top: 2px;
-    display: inline-block;
-}
-
-.teaching-link:hover { text-decoration: underline; }
 
 /* ── SOFTWARE CARDS ───────────────────────── */
 .software-grid {
@@ -401,20 +388,6 @@ p:last-child { margin-bottom: 0; }
     letter-spacing: 0.05em;
 }
 
-.sw-card-link {
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--gold);
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    margin-top: 4px;
-}
-
-.sw-card-link:hover { text-decoration: underline; }
 
 /* ── FOOTER LINE ──────────────────────────── */
 .page-foot {
