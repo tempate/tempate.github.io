@@ -38,6 +38,7 @@ title: Research
     <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
     <div class="pub-links">
+    <a class="pub-link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank">Link</a>
     <a class="pub-link" href="https://tempate.github.io/assets/docs/papers/simple_geometry_without_coordinates.pdf" target="_blank">PDF</a>
     </div>
 </li>
