@@ -25,7 +25,7 @@ title: Home
 </a>
 <a class="highlight-card" href="/pages/software">
     <span class="highlight-label">Software</span>
-    <span class="highlight-title">VeriClux</span>
-    <span class="highlight-meta">Explaining neural network classifiers using SAT-based reasoning</span>
+    <span class="highlight-title">AI-Atlas</span>
+    <span class="highlight-meta">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</span>
 </a>
 </div>

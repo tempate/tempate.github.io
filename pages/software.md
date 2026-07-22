@@ -7,6 +7,14 @@ title: Software
 
 <div class="software-grid">
 <div class="sw-card">
+    <div class="sw-card-name">AI-Atlas</div>
+    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own Pytorch implementation.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/tempate/AI-Atlas" target="_blank">GitHub</a>
+    </div>
+</div>
+
+<div class="sw-card">
     <div class="sw-card-name">VeriClux</div>
     <div class="sw-card-desc">Explaining neural network classifiers using SAT-based reasoning.</div>
     <div class="links">
