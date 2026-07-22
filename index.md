@@ -13,19 +13,19 @@ title: Home
 
 <h2 class="section-heading">Recent</h2>
 <div class="highlight-grid">
-<a class="highlight-card" href="/pages/research">
-    <span class="highlight-label">Research</span>
-    <span class="highlight-title">Abductive Explanations for Groups of Similar Samples</span>
-    <span class="highlight-meta">Preprint · Aalto University · 2025</span>
+<a class="highlight-card" href="/pages/software">
+    <span class="highlight-label">Software</span>
+    <span class="highlight-title">AI Atlas</span>
+    <span class="highlight-meta">A dump of AI projects, from Connect-4 to my own PyTorch.</span>
 </a>
 <a class="highlight-card" href="/pages/research">
     <span class="highlight-label">Research</span>
     <span class="highlight-title">Simple Geometry without Coordinates</span>
-    <span class="highlight-meta">Master's thesis · University of Helsinki · 2026</span>
+    <span class="highlight-meta">Master's thesis · 2026</span>
 </a>
-<a class="highlight-card" href="/pages/software">
-    <span class="highlight-label">Software</span>
-    <span class="highlight-title">AI-Atlas</span>
-    <span class="highlight-meta">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</span>
+<a class="highlight-card" href="/pages/research">
+    <span class="highlight-label">Research</span>
+    <span class="highlight-title">Abductive Explanations for Groups of Similar Samples</span>
+    <span class="highlight-meta">Preprint · 2025</span>
 </a>
 </div>
