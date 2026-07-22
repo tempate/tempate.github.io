@@ -10,3 +10,22 @@ title: Home
 <p>I did my master's in Mathematics at the University of Helsinki, specializing in mathematical and computational logic, and my bachelor's in Mathematics and Computer Science at the Universidad Politécnica de Madrid. In mathematical logic, I am interested in the foundations of mathematics: what truths exist, what can be proven, and what the limits of formal reasoning are. I have mostly worked in model theory and set theory, but I am also interested in proof theory, type theory, and the formalization of mathematics in Lean.</p>
 
 <p>Outside of my studies, I like running, traveling, cooking, reading, writing, and playing chess and Go.</p>
+
+<h2 class="section-heading">Recent</h2>
+<div class="highlight-grid">
+<a class="highlight-card" href="/pages/research">
+    <span class="highlight-label">Research</span>
+    <span class="highlight-title">Abductive Explanations for Groups of Similar Samples</span>
+    <span class="highlight-meta">Preprint · Aalto University · 2025</span>
+</a>
+<a class="highlight-card" href="/pages/research">
+    <span class="highlight-label">Research</span>
+    <span class="highlight-title">Simple Geometry without Coordinates</span>
+    <span class="highlight-meta">Master's thesis · University of Helsinki · 2026</span>
+</a>
+<a class="highlight-card" href="/pages/software">
+    <span class="highlight-label">Software</span>
+    <span class="highlight-title">VeriClux</span>
+    <span class="highlight-meta">Explaining neural network classifiers using SAT-based reasoning</span>
+</a>
+</div>

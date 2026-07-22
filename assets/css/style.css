@@ -215,10 +215,10 @@ h1.page-heading {
 }
 
 h2.section-heading {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     /* font-style: italic; */
-    color: var(--ink2);
+    color: var(--ink);
     margin: 44px 0 16px;
     padding-bottom: 9px;
     border-bottom: 1px solid var(--border);
@@ -410,10 +410,60 @@ p:last-child { margin-bottom: 0; }
     z-index: 90;
 }
 
+/* ── HOMEPAGE HIGHLIGHTS ──────────────────── */
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.highlight-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-left: 3px solid transparent;
+    border-radius: 2px;
+    padding: 18px 16px;
+    text-decoration: none;
+    transition: border-left-color 0.2s, box-shadow 0.2s;
+}
+
+.highlight-card:hover {
+    border-left-color: var(--gold);
+    box-shadow: 0 2px 12px rgba(58,107,158,0.08);
+}
+
+.highlight-label {
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+
+.highlight-title {
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.35;
+}
+
+.highlight-meta {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--ink2);
+}
+
 /* ── RESPONSIVE ───────────────────────────── */
 @media (max-width: 900px) {
     .interests-grid,
-    .software-grid { grid-template-columns: 1fr; }
+    .software-grid,
+    .highlight-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 700px) {
