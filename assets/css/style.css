@@ -93,16 +93,37 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-    --bg:        #f9f9f7;
-    --bg2:       #f1f1ef;
-    --ink:       #18181a;
-    --ink2:      #3c3c40;
+    color-scheme: light dark;
+
+    --bg:          #f9f9f7;
+    --bg2:         #f1f1ef;
+    --ink:         #18181a;
+    --ink2:        #3c3c40;
     --accent:      #3a6b9e;
     --accent-lt:   #5b8fc2;
-    --border:    rgba(24,24,26,0.10);
+    --accent-soft: rgba(58,107,158,0.4);
+    --border:      rgba(24,24,26,0.10);
+    --card-shadow: rgba(58,107,158,0.08);
     --sidebar-w: 256px;
     --serif:     'EB Garamond', Georgia, serif;
     --mono:      'DM Mono', 'Courier New', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg:          #16161a;
+        --bg2:         #1e1e23;
+        --ink:         #ededea;
+        --ink2:        #b0b0b6;
+        --accent:      #82aad3;
+        --accent-lt:   #a3c4e2;
+        --accent-soft: rgba(130,170,211,0.35);
+        --border:      rgba(255,255,255,0.12);
+        --card-shadow: rgba(0,0,0,0.35);
+    }
+
+    /* the photo is shot on a light background; take the edge off it */
+    .sidebar-photo { filter: brightness(0.92); }
 }
 
 html { scroll-behavior: smooth; }
@@ -275,7 +296,7 @@ nav a.active {
     text-transform: uppercase;
     color: var(--accent);
     text-decoration: none;
-    border: 1px solid rgba(58,107,158,0.4);
+    border: 1px solid var(--accent-soft);
     padding: 2px 7px;
     border-radius: 2px;
     transition: background 0.15s, color 0.15s, border-color 0.15s;
@@ -284,7 +305,7 @@ nav a.active {
 .link:hover {
     background: var(--accent);
     border-color: var(--accent);
-    color: #fff;
+    color: var(--bg);
 }
 
 /* ── TYPOGRAPHY ───────────────────────────── */
@@ -381,7 +402,7 @@ p:last-child { margin-bottom: 0; }
 
 .sw-card:hover {
     border-left-color: var(--accent);
-    box-shadow: 0 2px 12px rgba(58,107,158,0.08);
+    box-shadow: 0 2px 12px var(--card-shadow);
 }
 
 .sw-card-name {
@@ -438,7 +459,7 @@ p:last-child { margin-bottom: 0; }
 
 .highlight-card:hover {
     border-left-color: var(--accent);
-    box-shadow: 0 2px 12px rgba(58,107,158,0.08);
+    box-shadow: 0 2px 12px var(--card-shadow);
 }
 
 .highlight-label {
