@@ -15,8 +15,8 @@ description: >-
     <span class="pub-meta">IEEE Open Journal of Engineering in Medicine and Biology — 2022</span>
     <span class="pub-meta">Marcus Klang, Daniel Díaz, Dennis Medved, Pierre Nugues, Johan Nilsson</span>
     <div class="links">
-    <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank">Link</a>
-    <a class="link" href="{{ '/assets/docs/papers/using_operative_reports_to_predict_heart_transplantation_survival.pdf' | relative_url }}" target="_blank">PDF</a>
+    <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank" aria-label="Link: Using Operative Reports to Predict Heart Transplantation Survival, on PubMed">Link</a>
+    <a class="link" href="{{ '/assets/docs/papers/using_operative_reports_to_predict_heart_transplantation_survival.pdf' | relative_url }}" target="_blank" aria-label="PDF: Using Operative Reports to Predict Heart Transplantation Survival">PDF</a>
     </div>
 </li>
 </ul>
@@ -28,8 +28,8 @@ description: >-
     <span class="pub-meta">Department of Computer Science, Aalto University — 2025</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tuomo Lehtonen</span>
     <div class="links">
-    <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank">Link</a>
-    <a class="link" href="{{ '/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf' | relative_url }}" target="_blank">PDF</a>
+    <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" aria-label="Link: Abductive Explanations for Groups of Similar Samples, on OpenReview">Link</a>
+    <a class="link" href="{{ '/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf' | relative_url }}" target="_blank" aria-label="PDF: Abductive Explanations for Groups of Similar Samples">PDF</a>
     </div>
 </li>
 </ul>
@@ -41,8 +41,8 @@ description: >-
     <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
     <div class="links">
-    <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank">Link</a>
-    <a class="link" href="{{ '/assets/docs/papers/simple_geometry_without_coordinates.pdf' | relative_url }}" target="_blank">PDF</a>
+    <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank" aria-label="Link: Simple Geometry without Coordinates, in the University of Helsinki repository">Link</a>
+    <a class="link" href="{{ '/assets/docs/papers/simple_geometry_without_coordinates.pdf' | relative_url }}" target="_blank" aria-label="PDF: Simple Geometry without Coordinates">PDF</a>
     </div>
 </li>
 <li class="pub-item">
@@ -50,8 +50,8 @@ description: >-
     <span class="pub-meta">Bachelor’s Thesis. Department of Mathematics, Universidad Politécnica de Madrid — 2022</span>
     <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
     <div class="links">
-    <a class="link" href="https://oa.upm.es/70899/" target="_blank">Link</a>
-    <a class="link" href="{{ '/assets/docs/papers/projective_and_plane_curves.pdf' | relative_url }}" target="_blank">PDF</a>
+    <a class="link" href="https://oa.upm.es/70899/" target="_blank" aria-label="Link: Projective and Plane Curves, in the UPM repository">Link</a>
+    <a class="link" href="{{ '/assets/docs/papers/projective_and_plane_curves.pdf' | relative_url }}" target="_blank" aria-label="PDF: Projective and Plane Curves">PDF</a>
     </div>
 </li>
 </ul>
@@ -63,7 +63,7 @@ description: >-
     <span class="pub-meta">Department of Philosophy, University of Helsinki — 2025</span>
     <span class="pub-meta">Daniel Díaz Quílez</span>
     <div class="links">
-    <a class="link" href="{{ '/assets/docs/papers/belief_updates_through_dynamic_modal_logic.pdf' | relative_url }}" target="_blank">PDF</a>
+    <a class="link" href="{{ '/assets/docs/papers/belief_updates_through_dynamic_modal_logic.pdf' | relative_url }}" target="_blank" aria-label="PDF: Belief Updates through Dynamic Modal Logic">PDF</a>
     </div>
 </li>
 <li class="pub-item">
@@ -71,7 +71,7 @@ description: >-
     <span class="pub-meta">Department of Computer Science, Lund University — 2022</span>
     <span class="pub-meta">Daniel Díaz, Diego Figueroa, Theodora Gaiceanu</span>
     <div class="links">
-    <a class="link" href="{{ '/assets/docs/papers/predicting_a_subjects_card_with_the_muse_S_headband.pdf' | relative_url }}" target="_blank">PDF</a>
+    <a class="link" href="{{ '/assets/docs/papers/predicting_a_subjects_card_with_the_muse_S_headband.pdf' | relative_url }}" target="_blank" aria-label="PDF: Predicting a Subject's Card with the Muse-S headband">PDF</a>
     </div>
 </li>
 </ul>
@@ -83,9 +83,9 @@ description: >-
     <span class="pub-meta">Madrid — 2025</span>
     <span class="pub-meta">A short biography of my grandmother (in Spanish).</span>
     <div class="links">
-    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.pdf' | relative_url }}" target="_blank">PDF</a>
-    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.epub' | relative_url }}" target="_blank">EPUB</a>
-    <a class="link" href="https://www.amazon.es/-/en/Mi-Esperanza-Daniel-D%C3%ADaz-Qu%C3%ADlez/dp/B0GCVS83G4/" target="_blank">Paperback</a>
+    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.pdf' | relative_url }}" target="_blank" aria-label="PDF: Mi Esperanza">PDF</a>
+    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.epub' | relative_url }}" target="_blank" aria-label="EPUB: Mi Esperanza">EPUB</a>
+    <a class="link" href="https://www.amazon.es/-/en/Mi-Esperanza-Daniel-D%C3%ADaz-Qu%C3%ADlez/dp/B0GCVS83G4/" target="_blank" aria-label="Paperback: Mi Esperanza, on Amazon">Paperback</a>
     </div>
 </li>
 </ul>
