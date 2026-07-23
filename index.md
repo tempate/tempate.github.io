@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Home
+description: >-
+  Daniel Díaz Quílez is a PhD student in Symbolic AI at TU Wien, working on
+  SAT-based and neurosymbolic reasoning.
 ---
 
 <h1 class="page-heading">Daniel Díaz Quílez</h1>
@@ -13,7 +16,7 @@ title: Home
 
 <h2 class="section-heading">Recent</h2>
 <div class="highlight-grid">
-<a class="highlight-card" href="/pages/software">
+<a class="highlight-card" href="https://github.com/tempate/AI-Atlas" target="_blank" rel="noopener">
     <span class="highlight-label">Software</span>
     <span class="highlight-title">AI Atlas</span>
     <span class="highlight-meta">A dump of AI projects, from Connect-4 to my own PyTorch.</span>

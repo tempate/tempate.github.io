@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Software
+description: >-
+  Open-source projects by Daniel Díaz Quílez, from SAT-based explanations of
+  neural networks to chess engines and a custom 8-bit computer.
 ---
 
 <h1 class="page-heading">Software</h1>
@@ -8,14 +11,14 @@ title: Software
 <div class="software-grid">
 <div class="sw-card">
     <div class="sw-card-name">AI Atlas</div>
-    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own Pytorch implementation.</div>
+    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</div>
     <div class="links">
         <a class="link" href="https://github.com/tempate/AI-Atlas" target="_blank">GitHub</a>
     </div>
 </div>
 
 <div class="sw-card">
-    <div class="sw-card-name">VeriClux</div>
+    <div class="sw-card-name">VeriCluX</div>
     <div class="sw-card-desc">Explaining neural network classifiers using SAT-based reasoning.</div>
     <div class="links">
         <a class="link" href="https://github.com/tempate/VeriCluX" target="_blank">GitHub</a>
@@ -59,7 +62,7 @@ title: Software
     <div class="sw-card-name">Algorithm Atlas</div>
     <div class="sw-card-desc">Interactive visualizations of algorithms from AI to cryptography.</div>
     <div class="links">
-        <a class="link" href="https://github.com/Tempate/Personal-Website" target="_blank">GitHub</a>
+        <a class="link" href="https://github.com/Tempate/Algorithm-Atlas" target="_blank">GitHub</a>
         <a class="link" href="https://danidiaz.onrender.com/" target="_blank">Link</a>
     </div>
 </div>

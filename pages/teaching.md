@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Teaching
+description: >-
+  Courses taught by Daniel Díaz Quílez as a teaching assistant at the
+  University of Helsinki and Lund University.
 ---
 
 <h1 class="page-heading">Teaching</h1>

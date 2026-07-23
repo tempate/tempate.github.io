@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Site Verification -->
-  <meta name="google-site-verification" content="Uk7ofxLTCuxR63yLFN_rVPJbXcULOynaaKGlvz22DNI" />
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }} | Daniel Díaz Quílez</title>
+  <meta name="google-site-verification" content="Uk7ofxLTCuxR63yLFN_rVPJbXcULOynaaKGlvz22DNI" />
+
+  {%- assign page_title = page.title | append: ' | ' | append: site.title -%}
+  {%- assign page_desc = page.description | default: site.description -%}
+  {%- assign og_image = '/assets/images/daniel-diaz-quilez.jpg' | absolute_url -%}
+  {%- comment -%} nav links use the extensionless form, so canonical must match {%- endcomment -%}
+  {%- assign page_link = page.url | replace: '.html', '' | absolute_url -%}
+
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}" />
+  <meta name="author" content="{{ site.title }}" />
+  <link rel="canonical" href="{{ page_link }}" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta property="og:description" content="{{ page_desc }}" />
+  <meta property="og:url" content="{{ page_link }}" />
+  <meta property="og:image" content="{{ og_image }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ page_title }}" />
+  <meta name="twitter:description" content="{{ page_desc }}" />
+  <meta name="twitter:image" content="{{ og_image }}" />
+
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <aside class="sidebar" id="sidebar">
     <img class="sidebar-photo"
-         src="/assets/images/daniel-diaz-quilez.jpg"
+         src="{{ '/assets/images/daniel-diaz-quilez.jpg' | relative_url }}"
          alt="Daniel Díaz Quílez"
+         width="180" height="180"
          onerror="this.style.display='none'" />
     <div class="sidebar-name">Daniel Díaz Quílez</div>
     <div class="sidebar-title">PhD student · Symbolic AI</div>
@@ -51,7 +75,7 @@
         </svg>
         LinkedIn
       </a>
-      <a href="https://tempate.github.io/assets/docs/daniel_diaz_quilez_cv.pdf" target="_blank" rel="noopener">
+      <a href="{{ '/assets/docs/daniel_diaz_quilez_cv.pdf' | relative_url }}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
           <polyline points="14 2 14 8 20 8"/>
@@ -71,11 +95,11 @@
   </aside>
 
   <div class="overlay" id="overlay"></div>
-  <button class="burger" id="burger" aria-label="Menu">
+  <button class="burger" id="burger" aria-label="Menu" aria-controls="sidebar" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 
-  <main class="main">
+  <main class="main" id="main">
     {{ content }}
   </main>
 
@@ -83,15 +107,22 @@
     const burger  = document.getElementById('burger');
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('overlay');
-    burger.addEventListener('click', () => {
-      const open = burger.classList.toggle('open');
+
+    function setMenu(open) {
+      burger.classList.toggle('open', open);
       sidebar.classList.toggle('open', open);
       overlay.classList.toggle('open', open);
-    });
-    overlay.addEventListener('click', () => {
-      burger.classList.remove('open');
-      sidebar.classList.remove('open');
-      overlay.classList.remove('open');
+      burger.setAttribute('aria-expanded', String(open));
+    }
+
+    burger.addEventListener('click', () => setMenu(!burger.classList.contains('open')));
+    overlay.addEventListener('click', () => setMenu(false));
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && burger.classList.contains('open')) {
+        setMenu(false);
+        burger.focus();
+      }
     });
   </script>
 </body>
