@@ -486,13 +486,12 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ── RESPONSIVE ───────────────────────────── */
+/* Below 900px the fixed 256px sidebar leaves too narrow a text column,
+   so the nav goes off-canvas and the grids drop to one column together. */
 @media (max-width: 900px) {
-    .interests-grid,
     .software-grid,
     .highlight-grid { grid-template-columns: 1fr; }
-}
 
-@media (max-width: 700px) {
     /* visibility keeps the off-canvas nav out of the tab order while closed */
     .sidebar {
     transform: translateX(-100%);
