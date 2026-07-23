@@ -174,7 +174,7 @@ nav a.active {
     max-width: 820px;
 }
 
-.links { display: flex; gap: 10px; margin-top: 4px; }
+.links { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 4px; }
 
 .link {
     font-family: var(--mono);
@@ -296,6 +296,15 @@ p:last-child { margin-bottom: 0; }
     font-size: 1rem;
     font-weight: 600;
     color: var(--ink);
+}
+
+.sw-card-year {
+    font-family: var(--mono);
+    font-size: 0.63rem;
+    font-weight: 300;
+    color: var(--ink2);
+    letter-spacing: 0.05em;
+    margin-left: auto;   /* pushes the year to the far end of the links row */
 }
 
 .sw-card-desc {
