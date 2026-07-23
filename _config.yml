@@ -2,5 +2,30 @@ title: Daniel Díaz Quílez
 description: PhD student in Symbolic AI at TU Wien, working on SAT-based and neurosymbolic reasoning.
 url: "https://tempate.github.io"
 
+# Used to build the JSON-LD Person block on the home page (see _layouts/default.html)
+author:
+  job_title: PhD Student in Symbolic AI
+  affiliation:
+    name: TU Wien
+    url: "https://www.tuwien.at/en/"
+  alumni:
+    - name: University of Helsinki
+      url: "https://www.helsinki.fi/en"
+    - name: Universidad Politécnica de Madrid
+      url: "https://www.upm.es/internacional"
+  knows_about:
+    - Symbolic artificial intelligence
+    - Neurosymbolic artificial intelligence
+    - SAT solving
+    - Answer set programming
+    - Inductive logic programming
+    - Mathematical logic
+    - Model theory
+    - Set theory
+  same_as:
+    - "https://github.com/tempate"
+    - "https://scholar.google.com/citations?user=UsqQPVUAAAAJ&hl=en"
+    - "https://www.linkedin.com/in/daniel-diaz-quilez/"
+
 plugins:
   - jekyll-sitemap
