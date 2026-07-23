@@ -14,28 +14,28 @@ description: >-
     <span class="teaching-meta">Teaching assistant · University of Helsinki · 2025, 2026</span>
     <span class="teaching-meta">In 2025, I gave two lectures.</span>
     <div class="links">
-        <a class="link" href="https://studies.helsinki.fi/courses/course-unit/otm-4851899d-9eb0-4618-ae2a-b9551fd5fd91" target="_blank" aria-label="Link: course page for Basics of Mathematics and Machine Learning II">Link</a>
+        <a class="link" href="https://studies.helsinki.fi/courses/course-unit/otm-4851899d-9eb0-4618-ae2a-b9551fd5fd91" target="_blank" rel="noopener" aria-label="Link: course page for Basics of Mathematics and Machine Learning II">Link</a>
     </div>
 </li>
 <li class="teaching-item">
     <span class="teaching-title">Basics of Mathematics and Machine Learning I</span>
     <span class="teaching-meta">Teaching assistant · University of Helsinki · 2026</span>
     <div class="links">
-        <a class="link" href="https://studies.helsinki.fi/courses/course-unit/otm-e73c203b-3dba-4fd0-9d49-d535ea8a8aac" target="_blank" aria-label="Link: course page for Basics of Mathematics and Machine Learning I">Link</a>
+        <a class="link" href="https://studies.helsinki.fi/courses/course-unit/otm-e73c203b-3dba-4fd0-9d49-d535ea8a8aac" target="_blank" rel="noopener" aria-label="Link: course page for Basics of Mathematics and Machine Learning I">Link</a>
     </div>
 </li>
 <li class="teaching-item">
     <span class="teaching-title">Computer &amp; Internet</span>
     <span class="teaching-meta">Teaching assistant · University of Helsinki · 2025, 2026</span>
     <div class="links">
-        <a class="link" href="https://studies.helsinki.fi/courses/course-unit/otm-13006f48-43c7-44e0-9610-c3d71c28ac6b" target="_blank" aria-label="Link: course page for Computer and Internet">Link</a>
+        <a class="link" href="https://studies.helsinki.fi/courses/course-unit/otm-13006f48-43c7-44e0-9610-c3d71c28ac6b" target="_blank" rel="noopener" aria-label="Link: course page for Computer and Internet">Link</a>
     </div>
 </li>
 <li class="teaching-item">
     <span class="teaching-title">Computational Programming with Python</span>
     <span class="teaching-meta">Teaching assistant · Lund University · 2021, 2022</span>
     <div class="links">
-        <a class="link" href="https://www.lunduniversity.lu.se/lubas/i-uoh-lu-NUMA01" target="_blank" aria-label="Link: course page for Computational Programming with Python">Link</a>
+        <a class="link" href="https://www.lunduniversity.lu.se/lubas/i-uoh-lu-NUMA01" target="_blank" rel="noopener" aria-label="Link: course page for Computational Programming with Python">Link</a>
     </div>
 </li>
 </ul>
