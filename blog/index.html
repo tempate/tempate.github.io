@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+description: >-
+  Notes on whatever I happen to be thinking about.
+---
+
+<h1 class="page-heading">Blog</h1>
+
+<p>Notes on whatever I happen to be thinking about. Unlisted on purpose.</p>
+
+<ul class="post-list">
+{%- for post in site.posts %}
+  <li class="post-item">
+    <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-meta">{{ post.date | date: "%-d %B %Y" }}</div>
+    {%- if post.summary %}
+    <div class="post-summary">{{ post.summary }}</div>
+    {%- endif %}
+  </li>
+{%- else %}
+  <li class="post-item"><div class="post-meta">No posts yet.</div></li>
+{%- endfor %}
+</ul>
