@@ -69,7 +69,7 @@ description: >-
     <div class="sw-card-desc">Interactive visualizations of algorithms from AI to cryptography.</div>
     <div class="links">
         <a class="link" href="https://github.com/Tempate/Algorithm-Atlas" target="_blank" rel="noopener" aria-label="GitHub: Algorithm Atlas">GitHub</a>
-        <a class="link" href="https://danidiaz.onrender.com/" target="_blank" rel="noopener" aria-label="Link: Algorithm Atlas">Link</a>
+        <a class="link" href="https://tempate.github.io/Algorithm-Atlas/" target="_blank" rel="noopener" aria-label="Website: Algorithm Atlas">Website</a>
         <div class="sw-card-year">2017</div>
     </div>
 </div>
