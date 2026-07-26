@@ -9,7 +9,7 @@ description: >-
 <h1 class="page-heading">Software</h1>
 
 <div class="software-grid">
-<div class="sw-card">
+<div class="sw-card" id="ai-atlas">
     <div class="sw-card-name">AI Atlas</div>
     <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</div>
     <div class="links">
@@ -18,7 +18,7 @@ description: >-
     </div>
 </div>
 
-<div class="sw-card">
+<div class="sw-card" id="groupaxps">
     <div class="sw-card-name">GroupAXps</div>
     <div class="sw-card-desc">SAT-based explanations for groups of similar samples in neural network classifiers.</div>
     <div class="links">
@@ -28,7 +28,7 @@ description: >-
     </div>
 </div>
 
-<div class="sw-card">
+<div class="sw-card" id="prophet">
     <div class="sw-card-name">Prophet</div>
     <div class="sw-card-desc">Predicting heart transplantation survival using NLP and transformer models.</div>
     <div class="links">

@@ -17,6 +17,7 @@ description: >-
     <div class="links">
     <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank" rel="noopener" aria-label="Link: Using Operative Reports to Predict Heart Transplantation Survival, on PubMed">Link</a>
     <a class="link" href="{{ '/assets/docs/papers/using_operative_reports_to_predict_heart_transplantation_survival.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Using Operative Reports to Predict Heart Transplantation Survival">PDF</a>
+    <a class="link" href="/pages/software#prophet" aria-label="Code: Prophet">Code</a>
     </div>
 </li>
 </ul>
@@ -30,13 +31,14 @@ description: >-
     <div class="links">
     <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" rel="noopener" aria-label="Link: Abductive Explanations for Groups of Similar Samples, on OpenReview">Link</a>
     <a class="link" href="{{ '/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Abductive Explanations for Groups of Similar Samples">PDF</a>
+    <a class="link" href="/pages/software#groupaxps" aria-label="Code: GroupAXps">Code</a>
     </div>
 </li>
 </ul>
 
 <h2 class="section-heading">Theses</h2>
 <ul class="pub-list">
-<li class="pub-item">
+<li class="pub-item" id="simple-geometry-without-coordinates">
     <span class="pub-title">Simple Geometry without Coordinates: Building an Exotic Plane with Model Theory</span>
     <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>

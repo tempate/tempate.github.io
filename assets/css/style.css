@@ -413,11 +413,20 @@ p:last-child { margin-bottom: 0; }
     flex-direction: column;
     gap: 6px;
     transition: border-left-color 0.2s, box-shadow 0.2s;
+    /* Keeps a card clear of the top edge when reached via an #anchor from the
+       Recent grid on the home page. */
+    scroll-margin-top: 24px;
 }
 
 .sw-card:hover {
     border-left-color: var(--accent);
     box-shadow: 0 2px 12px var(--card-shadow);
+}
+
+/* Marks the card an incoming #anchor points at, matching .pub-item:target. The
+   transparent border above already reserves the space, so nothing shifts. */
+.sw-card:target {
+    border-left-color: var(--accent-soft);
 }
 
 .sw-card-name {
