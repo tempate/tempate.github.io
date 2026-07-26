@@ -40,3 +40,4 @@ Thumbs.db
 .bundle/
 _site/
 vendor/
+.claude/
