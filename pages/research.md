@@ -10,7 +10,7 @@ description: >-
 
 <h2 class="section-heading">Published Papers</h2>
 <ul class="pub-list">
-<li class="pub-item">
+<li class="pub-item" id="heart-transplantation-survival">
     <span class="pub-title">Using Operative Reports to Predict Heart Transplantation Survival</span>
     <span class="pub-meta">IEEE Open Journal of Engineering in Medicine and Biology — 2022</span>
     <span class="pub-meta">Marcus Klang, Daniel Díaz, Dennis Medved, Pierre Nugues, Johan Nilsson</span>
@@ -23,7 +23,7 @@ description: >-
 
 <h2 class="section-heading">Preprints</h2>
 <ul class="pub-list">
-<li class="pub-item">
+<li class="pub-item" id="group-axps">
     <span class="pub-title">Abductive Explanations for Groups of Similar Samples</span>
     <span class="pub-meta">Department of Computer Science, Aalto University — 2025</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tuomo Lehtonen</span>

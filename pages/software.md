@@ -23,6 +23,7 @@ description: >-
     <div class="sw-card-desc">Explaining neural network classifiers using SAT-based reasoning.</div>
     <div class="links">
         <a class="link" href="https://github.com/tempate/VeriCluX" target="_blank" rel="noopener" aria-label="GitHub: VeriCluX">GitHub</a>
+        <a class="link" href="/pages/research#group-axps" aria-label="Paper: Abductive Explanations for Groups of Similar Samples">Paper</a>
         <div class="sw-card-year">2025</div>
     </div>
 </div>
@@ -32,6 +33,7 @@ description: >-
     <div class="sw-card-desc">Predicting heart transplantation survival using NLP and transformer models.</div>
     <div class="links">
         <a class="link" href="https://github.com/tempate/Prophet" target="_blank" rel="noopener" aria-label="GitHub: Prophet">GitHub</a>
+        <a class="link" href="/pages/research#heart-transplantation-survival" aria-label="Paper: Using Operative Reports to Predict Heart Transplantation Survival">Paper</a>
         <div class="sw-card-year">2022</div>
     </div>
 </div>
