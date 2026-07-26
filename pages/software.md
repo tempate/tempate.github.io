@@ -19,10 +19,10 @@ description: >-
 </div>
 
 <div class="sw-card">
-    <div class="sw-card-name">VeriCluX</div>
-    <div class="sw-card-desc">Explaining neural network classifiers using SAT-based reasoning.</div>
+    <div class="sw-card-name">GroupAXps</div>
+    <div class="sw-card-desc">SAT-based explanations for groups of similar samples in neural network classifiers.</div>
     <div class="links">
-        <a class="link" href="https://github.com/tempate/VeriCluX" target="_blank" rel="noopener" aria-label="GitHub: VeriCluX">GitHub</a>
+        <a class="link" href="https://github.com/tempate/GroupAXps" target="_blank" rel="noopener" aria-label="GitHub: GroupAXps">GitHub</a>
         <a class="link" href="/pages/research#group-axps" aria-label="Paper: Abductive Explanations for Groups of Similar Samples">Paper</a>
         <div class="sw-card-year">2025</div>
     </div>
