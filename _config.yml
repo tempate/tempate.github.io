@@ -29,24 +29,3 @@ author:
 
 plugins:
   - jekyll-sitemap
-
-# The blog is deliberately unlisted: nothing on the site links to it, posts are
-# kept out of sitemap.xml, and every blog page carries a noindex robots tag (see
-# _layouts/default.html). Note this only keeps it out of search results — the
-# repository itself is public, so the posts are readable on GitHub either way.
-# permalink is scoped to posts here rather than set site-wide, since a top-level
-# permalink would also restyle the URLs of the existing pages.
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      permalink: /blog/:title/
-      layout: post
-      sitemap: false
-      noindex: true
-  - scope:
-      path: "blog"
-    values:
-      sitemap: false
-      noindex: true
