@@ -9,22 +9,22 @@ description: >-
 <h1 class="page-heading">Software</h1>
 
 <div class="software-grid">
-<div class="sw-card" id="ai-atlas">
-    <div class="sw-card-name">AI Atlas</div>
-    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/tempate/AI-Atlas" target="_blank" rel="noopener" aria-label="GitHub: AI Atlas">GitHub</a>
-        <div class="sw-card-year">2026</div>
-    </div>
-</div>
-
 <div class="sw-card" id="groupaxps">
     <div class="sw-card-name">GroupAXps</div>
     <div class="sw-card-desc">SAT-based explanations for groups of similar samples in neural network classifiers.</div>
     <div class="links">
         <a class="link" href="https://github.com/tempate/GroupAXps" target="_blank" rel="noopener" aria-label="GitHub: GroupAXps">GitHub</a>
         <a class="link" href="/pages/research#group-axps" aria-label="Paper: Abductive Explanations for Groups of Similar Samples">Paper</a>
-        <div class="sw-card-year">2025</div>
+        <div class="sw-card-year">2026</div>
+    </div>
+</div>
+
+<div class="sw-card" id="ai-atlas">
+    <div class="sw-card-name">AI Atlas</div>
+    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/tempate/AI-Atlas" target="_blank" rel="noopener" aria-label="GitHub: AI Atlas">GitHub</a>
+        <div class="sw-card-year">2026</div>
     </div>
 </div>
 

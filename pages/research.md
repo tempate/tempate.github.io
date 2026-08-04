@@ -26,7 +26,7 @@ description: >-
 <ul class="pub-list">
 <li class="pub-item" id="group-axps">
     <span class="pub-title">Abductive Explanations for Groups of Similar Samples</span>
-    <span class="pub-meta">Department of Computer Science, Aalto University — 2025</span>
+    <span class="pub-meta">Department of Computer Science, Aalto University — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tuomo Lehtonen</span>
     <div class="links">
     <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" rel="noopener" aria-label="Link: Abductive Explanations for Groups of Similar Samples, on OpenReview">Link</a>

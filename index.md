@@ -16,6 +16,11 @@ description: >-
 
 <h2 class="section-heading">Recent</h2>
 <div class="highlight-grid">
+<a class="highlight-card" href="/pages/research#group-axps">
+    <span class="highlight-label">Research</span>
+    <span class="highlight-title">Abductive Explanations for Groups of Similar Samples</span>
+    <span class="highlight-meta">Preprint · 2026</span>
+</a>
 <a class="highlight-card" href="/pages/software#ai-atlas">
     <span class="highlight-label">Software</span>
     <span class="highlight-title">AI Atlas</span>
@@ -25,10 +30,5 @@ description: >-
     <span class="highlight-label">Research</span>
     <span class="highlight-title">Simple Geometry without Coordinates</span>
     <span class="highlight-meta">Master's thesis · 2026</span>
-</a>
-<a class="highlight-card" href="/pages/research#group-axps">
-    <span class="highlight-label">Research</span>
-    <span class="highlight-title">Abductive Explanations for Groups of Similar Samples</span>
-    <span class="highlight-meta">Preprint · 2025</span>
 </a>
 </div>
