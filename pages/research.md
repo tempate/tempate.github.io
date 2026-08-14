@@ -15,7 +15,7 @@ description: >-
     <span class="pub-meta">IEEE Open Journal of Engineering in Medicine and Biology — 2022</span>
     <span class="pub-meta">Marcus Klang, Daniel Díaz, Dennis Medved, Pierre Nugues, Johan Nilsson</span>
     <div class="links">
-    <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank" rel="noopener" aria-label="Link: Using Operative Reports to Predict Heart Transplantation Survival, on PubMed">Link</a>
+    <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank" rel="noopener" aria-label="Publication: Using Operative Reports to Predict Heart Transplantation Survival, on PubMed">Publication</a>
     <a class="link" href="{{ '/assets/docs/papers/using_operative_reports_to_predict_heart_transplantation_survival.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Using Operative Reports to Predict Heart Transplantation Survival">PDF</a>
     <a class="link" href="/pages/software#prophet" aria-label="Code: Prophet">Code</a>
     </div>
@@ -29,7 +29,7 @@ description: >-
     <span class="pub-meta">Department of Computer Science, Aalto University — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tuomo Lehtonen</span>
     <div class="links">
-    <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" rel="noopener" aria-label="Link: Abductive Explanations for Groups of Similar Samples, on OpenReview">Link</a>
+    <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" rel="noopener" aria-label="Submission: Abductive Explanations for Groups of Similar Samples, on OpenReview">Submission</a>
     <a class="link" href="{{ '/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Abductive Explanations for Groups of Similar Samples">PDF</a>
     <a class="link" href="/pages/software#groupaxps" aria-label="Code: GroupAXps">Code</a>
     </div>
@@ -43,7 +43,7 @@ description: >-
     <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
     <div class="links">
-    <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank" rel="noopener" aria-label="Link: Simple Geometry without Coordinates, in the University of Helsinki repository">Link</a>
+    <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank" rel="noopener" aria-label="Publication: Simple Geometry without Coordinates, in the University of Helsinki repository">Publication</a>
     <a class="link" href="{{ '/assets/docs/papers/simple_geometry_without_coordinates.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Simple Geometry without Coordinates">PDF</a>
     </div>
 </li>
@@ -52,7 +52,7 @@ description: >-
     <span class="pub-meta">Bachelor’s Thesis. Department of Mathematics, Universidad Politécnica de Madrid — 2022</span>
     <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
     <div class="links">
-    <a class="link" href="https://oa.upm.es/70899/" target="_blank" rel="noopener" aria-label="Link: Projective and Plane Curves, in the UPM repository">Link</a>
+    <a class="link" href="https://oa.upm.es/70899/" target="_blank" rel="noopener" aria-label="Publication: Projective and Plane Curves, in the UPM repository">Publication</a>
     <a class="link" href="{{ '/assets/docs/papers/projective_and_plane_curves.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Projective and Plane Curves">PDF</a>
     </div>
 </li>
