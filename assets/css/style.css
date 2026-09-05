@@ -424,7 +424,7 @@ p:last-child { margin-bottom: 0; }
     gap: 8px;
     transition: border-left-color 0.2s, box-shadow 0.2s;
     /* Keeps a card clear of the top edge when reached via an #anchor from the
-       Recent list on the home page. */
+       News list on the home page. */
     scroll-margin-top: 24px;
 }
 
@@ -472,58 +472,42 @@ p:last-child { margin-bottom: 0; }
     z-index: 90;
 }
 
-/* ── HOMEPAGE HIGHLIGHTS ──────────────────── */
-.highlight-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
-    margin-top: 20px;
-}
+/* ── NEWS ────────────────────────────────── */
+.news-list { list-style: none; }
 
-.highlight-card {
+.news-item {
     display: grid;
     grid-template-columns: 6rem minmax(0, 1fr);
-    column-gap: 16px;
-    row-gap: 4px;
-    border-bottom: 1px solid var(--border);
+    gap: 16px;
     padding: 16px 0;
-    text-decoration: none;
 }
 
-.highlight-card:first-child { border-top: 1px solid var(--border); }
-.highlight-card:hover .highlight-title { color: var(--accent); }
-.highlight-card .highlight-label { grid-row: 1 / 3; padding-top: 2px; }
-.highlight-card .highlight-meta { grid-column: 2; }
+.news-item + .news-item { border-top: 1px solid var(--border); }
 
-.highlight-label {
+.news-date {
     font-family: var(--mono);
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--accent);
-}
-
-.highlight-title {
-    font-size: 0.92rem;
-    font-weight: 500;
-    color: var(--ink);
-    line-height: 1.35;
-}
-
-.highlight-meta {
-    font-family: var(--mono);
-    font-size: 0.75rem;
-    font-weight: 400;
+    font-size: 0.85rem;
     color: var(--ink2);
+    padding-top: 4px;
+    white-space: nowrap;
 }
+
+.news-item p { margin: 0; }
+
+.news-item a {
+    color: var(--ink);
+    text-decoration-color: var(--accent-soft);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+.news-item a:hover { color: var(--accent); text-decoration-color: currentColor; }
 
 /* ── RESPONSIVE ───────────────────────────── */
 /* Below 900px the fixed 256px sidebar leaves too narrow a text column,
-   so the nav goes off-canvas and the grids drop to one column together. */
+   so the nav goes off-canvas and software cards drop to one column. */
 @media (max-width: 900px) {
-    .software-grid,
-    .highlight-grid { grid-template-columns: 1fr; }
+    .software-grid { grid-template-columns: 1fr; }
 
     /* visibility keeps the off-canvas nav out of the tab order while closed */
     .sidebar {
@@ -550,9 +534,8 @@ p:last-child { margin-bottom: 0; }
 
 @media (max-width: 480px) {
     .main { padding-inline: 20px; }
-    .highlight-card { grid-template-columns: 1fr; }
-    .highlight-card .highlight-label { grid-row: auto; padding-top: 0; }
-    .highlight-card .highlight-meta { grid-column: auto; }
+    .news-item { grid-template-columns: 1fr; gap: 4px; }
+    .news-date { padding-top: 0; }
 }
 
 a:focus-visible, button:focus-visible {

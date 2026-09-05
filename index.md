@@ -14,21 +14,22 @@ description: >-
 
 <p>Outside of research, I enjoy running, traveling, cooking, reading, writing, and playing chess and Go.</p>
 
-<h2 class="section-heading">Recent</h2>
-<div class="highlight-grid">
-<a class="highlight-card" href="/pages/research#group-axps">
-    <span class="highlight-label">Research</span>
-    <span class="highlight-title">Abductive Explanations for Groups of Similar Samples</span>
-    <span class="highlight-meta">Preprint · 2026</span>
-</a>
-<a class="highlight-card" href="/pages/software#ai-atlas">
-    <span class="highlight-label">Software</span>
-    <span class="highlight-title">AI Atlas</span>
-    <span class="highlight-meta">A dump of AI projects, from Connect-4 to my own PyTorch.</span>
-</a>
-<a class="highlight-card" href="/pages/research#simple-geometry-without-coordinates">
-    <span class="highlight-label">Research</span>
-    <span class="highlight-title">Simple Geometry without Coordinates</span>
-    <span class="highlight-meta">Master's thesis · 2026</span>
-</a>
-</div>
+<h2 class="section-heading">News</h2>
+<ul class="news-list">
+    <li class="news-item">
+        <time class="news-date" datetime="2026-08">August 2026</time>
+        <p>Started my PhD at TU Wien under Zeynep G. Saribatur and Nysret Musliu.</p>
+    </li>
+    <li class="news-item">
+        <time class="news-date" datetime="2026-07">July 2026</time>
+        <p>Submitted <a href="/pages/research#group-axps">Abductive Explanations for Groups of Similar Samples</a> to AAAI.</p>
+    </li>
+    <li class="news-item">
+        <time class="news-date" datetime="2026-06">June 2026</time>
+        <p>Created <a href="/pages/software#ai-atlas">AI Atlas</a>, a collection of AI experiments I've written to learn.</p>
+    </li>
+    <li class="news-item">
+        <time class="news-date" datetime="2026-05">May 2026</time>
+        <p>Submitted my master's thesis, <a href="/pages/research#simple-geometry-without-coordinates">Simple Geometry without Coordinates</a>.</p>
+    </li>
+</ul>
