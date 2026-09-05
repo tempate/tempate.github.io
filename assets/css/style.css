@@ -124,8 +124,14 @@
         --card-shadow: rgba(0,0,0,0.2);
     }
 
-    /* the photo is shot on a light background; take the edge off it */
-    .sidebar-photo { filter: brightness(0.92); }
+    /* The photo is shot on a light background, so against the dark page it
+       reads as the highest-contrast object and pulls focus off the name and
+       the news. Dim it further, and give the edge a border so the bright
+       rectangle stops floating free of the background. */
+    .sidebar-photo {
+        filter: brightness(0.82);
+        border: 1px solid var(--border);
+    }
 }
 
 .skip-link {
