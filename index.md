@@ -2,17 +2,17 @@
 layout: default
 title: Home
 description: >-
-  Daniel Díaz Quílez is a PhD student in Symbolic AI at TU Wien, working on
-  SAT-based and neurosymbolic reasoning.
+  Daniel Díaz Quílez is a PhD student in Symbolic AI at TU Wien, researching
+  learning abstractions for generalized reasoning in AI.
 ---
 
 <h1 class="page-heading">Daniel Díaz Quílez</h1>
 
-<p>I am a PhD student in Symbolic AI at TU Wien, where I work on AI systems that reason transparently, reliably, and from first principles. Most of my work uses SAT solvers for symbolic and neurosymbolic AI.</p>
+<p>I am a PhD student in Symbolic AI at TU Wien, studying how AI systems can learn abstractions for generalized reasoning. My background is in mathematics and computer science. I earned my bachelor's at the Universidad Politécnica de Madrid, then completed a master's in Mathematics at the University of Helsinki, specializing in mathematical and computational logic.</p>
 
-<p>I did my master's in Mathematics at the University of Helsinki, specializing in mathematical and computational logic, and my bachelor's in Mathematics and Computer Science at the Universidad Politécnica de Madrid. I am fascinated by the foundations of mathematics: what truths exist, what can be proven, and what the limits of formal reasoning are. I have mostly worked on model theory and set theory, but I am also drawn to proof theory, type theory, and formalizing mathematics in Lean.</p>
+<p>I am fascinated by the foundations of mathematics, the relationship between truth and proof, and the limits of formal reasoning. Most of my work in mathematics has been in model theory and set theory. I am also interested in proof theory, type theory, and formalizing mathematics in Lean.</p>
 
-<p>Outside of my studies, I like running, traveling, cooking, reading, writing, and playing chess and Go.</p>
+<p>Outside of research, I enjoy running, traveling, cooking, reading, writing, and playing chess and Go.</p>
 
 <h2 class="section-heading">Recent</h2>
 <div class="highlight-grid">
