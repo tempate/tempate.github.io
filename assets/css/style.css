@@ -99,11 +99,11 @@
     --bg2:         #f1f1ef;
     --ink:         #18181a;
     --ink2:        #3c3c40;
-    --accent:      #3a6b9e;
-    --accent-lt:   #5b8fc2;
-    --accent-soft: rgba(58,107,158,0.4);
+    --accent:      #b509ac;
+    --accent-lt:   #a3089b;
+    --accent-soft: rgba(181,9,172,0.4);
     --border:      rgba(24,24,26,0.10);
-    --card-shadow: rgba(58,107,158,0.08);
+    --card-shadow: rgba(181,9,172,0.08);
     --sidebar-w: 256px;
     --serif:     'EB Garamond', Georgia, serif;
     --mono:      'DM Mono', 'Courier New', monospace;
@@ -115,9 +115,9 @@
         --bg2:         #1e1e23;
         --ink:         #ededea;
         --ink2:        #b0b0b6;
-        --accent:      #82aad3;
-        --accent-lt:   #a3c4e2;
-        --accent-soft: rgba(130,170,211,0.35);
+        --accent:      #e05fd6;
+        --accent-lt:   #ee8ce6;
+        --accent-soft: rgba(224,95,214,0.35);
         --border:      rgba(255,255,255,0.12);
         --card-shadow: rgba(0,0,0,0.35);
     }
