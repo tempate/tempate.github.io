@@ -103,6 +103,7 @@
     --bg2:         #f1efeb;
     --ink:         #18181a;
     --ink2:        #3c3c40;
+    --muted:       #5e5e65;
     --accent:      #b509ac;
     --accent-lt:   #a3089b;
     --accent-soft: rgba(181,9,172,0.4);
@@ -120,6 +121,7 @@
         --bg2:         color-mix(in oklab, var(--accent) 2%, #1c1c21);
         --ink:         #ededea;
         --ink2:        #d0d0d6;
+        --muted:       #a8a8ae;
         --accent:      #e879de;
         --accent-lt:   #ee8ce6;
         --accent-soft: rgba(224,95,214,0.35);
@@ -186,7 +188,7 @@ body {
     overflow-y: auto;
     scrollbar-width: none;
     background: var(--bg);
-    color: var(--ink2);
+    color: var(--muted);
     display: flex;
     flex-direction: column;
     padding: 48px 28px 40px;
@@ -220,7 +222,7 @@ body {
     font-family: var(--mono);
     font-size: 0.75rem;
     font-weight: 400;
-    color: var(--ink2);
+    color: var(--muted);
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 28px;
@@ -237,7 +239,7 @@ body {
     font-family: var(--mono);
     font-size: 0.8rem;
     font-weight: 400;
-    color: var(--ink2);
+    color: var(--muted);
     text-decoration: none;
     letter-spacing: 0.04em;
     display: flex;
@@ -261,7 +263,7 @@ nav a {
     font-size: 0.8rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--ink2);
+    color: var(--muted);
     text-decoration: none;
     padding: 10px 12px;
     border-left: 2px solid transparent;
@@ -401,7 +403,7 @@ p:last-child { margin-bottom: 0; }
     font-family: var(--mono);
     font-size: 0.78rem;
     font-weight: 400;
-    color: var(--ink2);
+    color: var(--muted);
     letter-spacing: 0.03em;
 }
 
@@ -425,7 +427,7 @@ p:last-child { margin-bottom: 0; }
     font-family: var(--mono);
     font-size: 0.78rem;
     font-weight: 400;
-    color: var(--ink2);
+    color: var(--muted);
 }
 
 /* ── SOFTWARE CARDS ───────────────────────── */
@@ -473,7 +475,7 @@ p:last-child { margin-bottom: 0; }
     font-family: var(--mono);
     font-size: 0.75rem;
     font-weight: 400;
-    color: var(--ink2);
+    color: var(--muted);
     letter-spacing: 0.05em;
     margin-left: auto;   /* pushes the year to the far end of the links row */
 }
@@ -511,7 +513,7 @@ p:last-child { margin-bottom: 0; }
 .news-date {
     font-family: var(--mono);
     font-size: 0.85rem;
-    color: color-mix(in oklab, var(--accent) 70%, var(--ink2));
+    color: color-mix(in oklab, var(--accent) 70%, var(--muted));
     padding-top: 4px;
     white-space: nowrap;
 }
