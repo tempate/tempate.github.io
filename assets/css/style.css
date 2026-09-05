@@ -136,7 +136,7 @@ html { scroll-behavior: smooth; }
     background: var(--ink);
     color: var(--bg);
     font-family: var(--mono);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     text-decoration: none;
@@ -193,8 +193,8 @@ body {
 
 .sidebar-title {
     font-family: var(--mono);
-    font-size: 0.65rem;
-    font-weight: 300;
+    font-size: 0.75rem;
+    font-weight: 400;
     color: var(--ink2);
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -210,7 +210,7 @@ body {
 
 .sidebar-links a {
     font-family: var(--mono);
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: var(--ink2);
     text-decoration: none;
@@ -233,7 +233,7 @@ body {
 nav a {
     display: block;
     font-family: var(--mono);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ink2);
@@ -291,13 +291,16 @@ nav a.active {
 
 .link {
     font-family: var(--mono);
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--accent);
     text-decoration: none;
     border: 1px solid var(--accent-soft);
-    padding: 2px 7px;
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 5px 10px;
     border-radius: 2px;
     transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
@@ -367,8 +370,8 @@ p:last-child { margin-bottom: 0; }
 
 .pub-meta {
     font-family: var(--mono);
-    font-size: 0.68rem;
-    font-weight: 300;
+    font-size: 0.78rem;
+    font-weight: 400;
     color: var(--ink2);
     letter-spacing: 0.03em;
 }
@@ -391,8 +394,8 @@ p:last-child { margin-bottom: 0; }
 
 .teaching-meta {
     font-family: var(--mono);
-    font-size: 0.68rem;
-    font-weight: 300;
+    font-size: 0.78rem;
+    font-weight: 400;
     color: var(--ink2);
 }
 
@@ -437,8 +440,8 @@ p:last-child { margin-bottom: 0; }
 
 .sw-card-year {
     font-family: var(--mono);
-    font-size: 0.63rem;
-    font-weight: 300;
+    font-size: 0.75rem;
+    font-weight: 400;
     color: var(--ink2);
     letter-spacing: 0.05em;
     margin-left: auto;   /* pushes the year to the far end of the links row */
@@ -488,7 +491,7 @@ p:last-child { margin-bottom: 0; }
 
 .highlight-label {
     font-family: var(--mono);
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     font-weight: 500;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -504,8 +507,8 @@ p:last-child { margin-bottom: 0; }
 
 .highlight-meta {
     font-family: var(--mono);
-    font-size: 0.65rem;
-    font-weight: 300;
+    font-size: 0.75rem;
+    font-weight: 400;
     color: var(--ink2);
 }
 
