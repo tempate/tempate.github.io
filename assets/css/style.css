@@ -505,10 +505,12 @@ p:last-child { margin-bottom: 0; }
 
 .news-item + .news-item { border-top: 1px solid var(--border); }
 
+/* Pulled toward the accent, but mixed back toward --ink2 so a column of them
+   reads as a tinted rail rather than as a stack of separate highlights. */
 .news-date {
     font-family: var(--mono);
     font-size: 0.85rem;
-    color: var(--ink2);
+    color: color-mix(in oklab, var(--accent) 70%, var(--ink2));
     padding-top: 4px;
     white-space: nowrap;
 }
