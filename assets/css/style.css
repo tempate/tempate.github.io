@@ -137,6 +137,17 @@
     }
 }
 
+/* ── SURFACES ─────────────────────────────── */
+/* Left unstyled, both of these fall back to the browser's default blue --
+   the one piece of colour on the page that isn't chosen. The sidebar hides
+   its own scrollbar, so this only reaches the document scroller. */
+::selection {
+    background: var(--accent-soft);
+    color: var(--ink);
+}
+
+html { scrollbar-color: var(--accent-soft) transparent; }
+
 .skip-link {
     position: absolute;
     left: -9999px;
