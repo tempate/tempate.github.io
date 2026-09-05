@@ -95,11 +95,12 @@
 :root {
     color-scheme: light dark;
 
-    /* A faint cream rather than a neutral off-white: it reads as paper, which
-       is the ground EB Garamond was drawn for. --bg2 carries a wash of the
-       accent so cards hold colour without any element getting louder. */
-    --bg:          #faf8f4;
-    --bg2:         color-mix(in oklab, var(--accent) 3%, #f2efe9);
+    /* A hint of cream rather than a neutral off-white, so the ground reads as
+       paper without reading as beige. Cards take a plain warm grey: mixing a
+       few percent of the accent into a surface this pale is below the
+       threshold of visibility, so it only pretended to do something. */
+    --bg:          #faf9f6;
+    --bg2:         #f1efeb;
     --ink:         #18181a;
     --ink2:        #3c3c40;
     --accent:      #b509ac;
