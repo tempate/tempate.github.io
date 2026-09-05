@@ -126,8 +126,6 @@
     .sidebar-photo { filter: brightness(0.92); }
 }
 
-html { scroll-behavior: smooth; }
-
 .skip-link {
     position: absolute;
     left: -9999px;
@@ -162,7 +160,7 @@ body {
 /* ── SIDEBAR ──────────────────────────────── */
 .sidebar {
     width: var(--sidebar-w);
-    min-height: 100vh;
+    overflow-y: auto;
     background: var(--bg);
     color: var(--ink2);
     display: flex;
@@ -178,6 +176,7 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 4px;
+    flex-shrink: 0;
     object-fit: cover;
     margin-bottom: 20px;
     display: block;
@@ -238,16 +237,17 @@ nav a {
     text-transform: uppercase;
     color: var(--ink2);
     text-decoration: none;
-    padding: 10px 0;
-    transition: color 0.2s, padding-left 0.2s;
+    padding: 10px 12px;
+    border-left: 2px solid transparent;
+    transition: color 0.2s;
     cursor: pointer;
 }
 
-nav a:hover { color: var(--accent-lt); padding-left: 6px; }
+nav a:hover { color: var(--accent-lt); }
 
 nav a.active {
     color: var(--accent);
-    padding-left: 6px;
+    border-left-color: var(--accent);
 }
 
 /* BURGER */
@@ -256,28 +256,30 @@ nav a.active {
     position: fixed;
     top: 16px; left: 16px;
     z-index: 200;
-    width: 40px; height: 40px;
+    min-width: 88px; height: 44px;
     background: var(--ink);
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     padding: 10px;
 }
 
-.burger span {
+.burger-icon { display: flex; flex-direction: column; gap: 5px; }
+.burger-label { color: var(--bg); font: 0.75rem var(--mono); }
+
+.burger-icon span {
     display: block;
     width: 20px; height: 1.5px;
     background: var(--bg);
     transition: 0.3s;
 }
 
-.burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-.burger.open span:nth-child(2) { opacity: 0; }
-.burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+.burger.open .burger-icon span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.burger.open .burger-icon span:nth-child(2) { opacity: 0; }
+.burger.open .burger-icon span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
 /* ── MAIN ─────────────────────────────────── */
 .main {
@@ -518,13 +520,15 @@ p:last-child { margin-bottom: 0; }
 
     /* visibility keeps the off-canvas nav out of the tab order while closed */
     .sidebar {
+    left: 0;
+    padding-top: 80px;
     transform: translateX(-100%);
     visibility: hidden;
     width: 260px;
     transition: transform 0.35s ease, visibility 0.35s ease;
     }
 
-    .sidebar.open { transform: translateX(0); visibility: visible; }
+    .sidebar.open { transform: translateX(0); visibility: visible; transition: transform 0.35s ease; }
 
     body { padding: 0; }
 
@@ -542,4 +546,15 @@ p:last-child { margin-bottom: 0; }
     .highlight-card { grid-template-columns: 1fr; }
     .highlight-card .highlight-label { grid-row: auto; padding-top: 0; }
     .highlight-card .highlight-meta { grid-column: auto; }
+}
+
+a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+body.menu-open { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; }
 }

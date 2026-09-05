@@ -118,17 +118,18 @@
       </a>
     </div>
 
-    <nav>
-      <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-      <a href="/pages/research" class="{% if page.url contains 'research' %}active{% endif %}">Research</a>
-      <a href="/pages/teaching"     class="{% if page.url contains 'teaching'     %}active{% endif %}">Teaching</a>
-      <a href="/pages/software"     class="{% if page.url contains 'software'     %}active{% endif %}">Software</a>
+    <nav aria-label="Main navigation">
+      <a href="/" class="{% if page.url == '/' %}active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+      <a href="/pages/research" class="{% if page.url contains 'research' %}active{% endif %}" {% if page.url contains 'research' %}aria-current="page"{% endif %}>Research</a>
+      <a href="/pages/teaching"     class="{% if page.url contains 'teaching'     %}active{% endif %}" {% if page.url contains 'teaching'     %}aria-current="page"{% endif %}>Teaching</a>
+      <a href="/pages/software"     class="{% if page.url contains 'software'     %}active{% endif %}" {% if page.url contains 'software'     %}aria-current="page"{% endif %}>Software</a>
     </nav>
   </aside>
 
   <div class="overlay" id="overlay"></div>
-  <button class="burger" id="burger" aria-label="Menu" aria-controls="sidebar" aria-expanded="false">
-    <span></span><span></span><span></span>
+  <button class="burger" id="burger" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+    <span class="burger-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+    <span class="burger-label">Menu</span>
   </button>
 
   <main class="main" id="main">
@@ -140,20 +141,54 @@
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('overlay');
 
-    function setMenu(open) {
+    const main = document.getElementById('main');
+    const skipLink = document.querySelector('.skip-link');
+    const mobile = window.matchMedia('(max-width: 900px)');
+
+    function setMenu(open, restoreFocus = false) {
+      open = open && mobile.matches;
       burger.classList.toggle('open', open);
       sidebar.classList.toggle('open', open);
       overlay.classList.toggle('open', open);
       burger.setAttribute('aria-expanded', String(open));
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      main.inert = open;
+      skipLink.inert = open;
+      document.body.classList.toggle('menu-open', open);
+      if (open) requestAnimationFrame(() => {
+        if (burger.classList.contains('open')) {
+          (sidebar.querySelector('nav a.active') || sidebar.querySelector('nav a')).focus();
+        }
+      });
+      else if (restoreFocus) burger.focus();
     }
 
     burger.addEventListener('click', () => setMenu(!burger.classList.contains('open')));
-    overlay.addEventListener('click', () => setMenu(false));
+    overlay.addEventListener('click', () => setMenu(false, true));
+    sidebar.addEventListener('click', (e) => {
+      if (e.target.closest('a') && mobile.matches) setMenu(false, true);
+    });
+    mobile.addEventListener('change', () => {
+      const focusWasInSidebar = sidebar.contains(document.activeElement);
+      const focusWasOnBurger = document.activeElement === burger;
+      setMenu(false, mobile.matches && focusWasInSidebar);
+      if (!mobile.matches && focusWasOnBurger) sidebar.querySelector('nav a').focus();
+    });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && burger.classList.contains('open')) {
-        setMenu(false);
-        burger.focus();
+      if (!burger.classList.contains('open')) return;
+      if (e.key === 'Escape') {
+        setMenu(false, true);
+      } else if (e.key === 'Tab') {
+        const links = [...sidebar.querySelectorAll('a[href]'), burger];
+        const index = links.indexOf(document.activeElement);
+        if (e.shiftKey && index <= 0) {
+          e.preventDefault();
+          links[links.length - 1].focus();
+        } else if (!e.shiftKey && (index === links.length - 1 || index === -1)) {
+          e.preventDefault();
+          links[0].focus();
+        }
       }
     });
   </script>
