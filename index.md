@@ -12,8 +12,6 @@ description: >-
 
 <p>I am fascinated by the foundations of mathematics, the relationship between truth and proof, and the limits of formal reasoning. Most of my work in mathematics has been in model theory and set theory. I am also interested in proof theory, type theory, and formalizing mathematics in Lean.</p>
 
-<p>Outside of research, I enjoy running, traveling, cooking, reading, writing, and playing chess and Go.</p>
-
 <h2 class="section-heading">News</h2>
 <ul class="news-list">
     <li class="news-item">
