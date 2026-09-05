@@ -103,7 +103,8 @@
     --accent-lt:   #a3089b;
     --accent-soft: rgba(181,9,172,0.4);
     --border:      rgba(24,24,26,0.10);
-    --card-shadow: rgba(181,9,172,0.08);
+    --card-border: rgba(24,24,26,0.07);
+    --card-shadow: rgba(24,24,26,0.04);
     --sidebar-w: 256px;
     --serif:     'EB Garamond', Georgia, serif;
     --mono:      'DM Mono', 'Courier New', monospace;
@@ -119,7 +120,8 @@
         --accent-lt:   #ee8ce6;
         --accent-soft: rgba(224,95,214,0.35);
         --border:      rgba(255,255,255,0.12);
-        --card-shadow: rgba(0,0,0,0.35);
+        --card-border: rgba(255,255,255,0.08);
+        --card-shadow: rgba(0,0,0,0.2);
     }
 
     /* the photo is shot on a light background; take the edge off it */
@@ -404,28 +406,28 @@ p:last-child { margin-bottom: 0; }
 /* ── SOFTWARE CARDS ───────────────────────── */
 .software-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
 }
 
 .sw-card {
     background: var(--bg2);
-    border: 1px solid var(--border);
+    border: 1px solid var(--card-border);
     border-left: 3px solid transparent;
-    border-radius: 2px;
+    border-radius: 6px;
     padding: 20px 18px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
     transition: border-left-color 0.2s, box-shadow 0.2s;
     /* Keeps a card clear of the top edge when reached via an #anchor from the
-       Recent grid on the home page. */
+       Recent list on the home page. */
     scroll-margin-top: 24px;
 }
 
-.sw-card:hover {
+.sw-card:hover, .sw-card:focus-within {
     border-left-color: var(--accent);
-    box-shadow: 0 2px 12px var(--card-shadow);
+    box-shadow: 0 2px 8px var(--card-shadow);
 }
 
 /* Marks the card an incoming #anchor points at, matching .pub-item:target. The
@@ -439,6 +441,8 @@ p:last-child { margin-bottom: 0; }
     font-weight: 600;
     color: var(--ink);
 }
+
+.sw-card .links { margin-top: auto; padding-top: 8px; gap: 8px; }
 
 .sw-card-year {
     font-family: var(--mono);
