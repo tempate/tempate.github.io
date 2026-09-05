@@ -119,7 +119,7 @@
         --bg:          #16161a;
         --bg2:         color-mix(in oklab, var(--accent) 2%, #1c1c21);
         --ink:         #ededea;
-        --ink2:        #b0b0b6;
+        --ink2:        #d0d0d6;
         --accent:      #e879de;
         --accent-lt:   #ee8ce6;
         --accent-soft: rgba(224,95,214,0.35);
