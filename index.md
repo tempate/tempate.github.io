@@ -18,16 +18,4 @@ description: >-
         <time class="news-date" datetime="2026-08">August 2026</time>
         <p>Started my PhD at TU Wien under Zeynep G. Saribatur and Nysret Musliu.</p>
     </li>
-    <li class="news-item">
-        <time class="news-date" datetime="2026-07">July 2026</time>
-        <p>Submitted <a href="/pages/research#group-axps">Abductive Explanations for Groups of Similar Samples</a> to AAAI.</p>
-    </li>
-    <li class="news-item">
-        <time class="news-date" datetime="2026-06">June 2026</time>
-        <p>Created <a href="/pages/software#ai-atlas">AI Atlas</a>, a collection of AI experiments I've written to learn.</p>
-    </li>
-    <li class="news-item">
-        <time class="news-date" datetime="2026-05">May 2026</time>
-        <p>Submitted my master's thesis, <a href="/pages/research#simple-geometry-without-coordinates">Simple Geometry without Coordinates</a>.</p>
-    </li>
 </ul>
