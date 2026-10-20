@@ -8,9 +8,7 @@ description: >-
 
 <h1 class="page-heading">Daniel Díaz Quílez</h1>
 
-<p>I am a PhD student in Symbolic AI at TU Wien, studying how AI systems can learn abstractions for generalized reasoning. My background is in mathematics and computer science. I earned my bachelor's at the Universidad Politécnica de Madrid, then completed a master's in Mathematics at the University of Helsinki, specializing in mathematical and computational logic.</p>
-
-<p>I am fascinated by the foundations of mathematics, the relationship between truth and proof, and the limits of formal reasoning. Most of my work in mathematics has been in model theory and set theory. I am also interested in proof theory, type theory, and formalizing mathematics in Lean.</p>
+<p>I am a PhD student in symbolic AI at TU Wien, studying how AI systems can learn abstractions for generalized reasoning. I earned my bachelor's in Mathematics and Computer Science at the Universidad Politécnica de Madrid, and my master's in Mathematics at the University of Helsinki.</p>
 
 <h2 class="section-heading">News</h2>
 <ul class="news-list">
