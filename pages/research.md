@@ -8,7 +8,7 @@ description: >-
 
 <h1 class="page-heading">Research</h1>
 
-<h2 class="section-heading">Published Papers</h2>
+<h2 class="section-heading">Conference Papers</h2>
 <ul class="pub-list">
 <li class="pub-item" id="heart-transplantation-survival">
     <span class="pub-title">Using Operative Reports to Predict Heart Transplantation Survival</span>
@@ -54,26 +54,6 @@ description: >-
     <div class="links">
     <a class="link" href="https://oa.upm.es/70899/" target="_blank" rel="noopener" aria-label="Publication: Projective and Plane Curves, in the UPM repository">Publication</a>
     <a class="link" href="{{ '/assets/docs/papers/projective_and_plane_curves.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Projective and Plane Curves">PDF</a>
-    </div>
-</li>
-</ul>
-
-<h2 class="section-heading">Course Papers</h2>
-<ul class="pub-list">
-<li class="pub-item">
-    <span class="pub-title">Belief Updates through Dynamic Modal Logic</span>
-    <span class="pub-meta">Department of Philosophy, University of Helsinki — 2025</span>
-    <span class="pub-meta">Daniel Díaz Quílez</span>
-    <div class="links">
-    <a class="link" href="{{ '/assets/docs/papers/belief_updates_through_dynamic_modal_logic.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Belief Updates through Dynamic Modal Logic">PDF</a>
-    </div>
-</li>
-<li class="pub-item">
-    <span class="pub-title">Predicting a Subject's Card with the Muse-S headband</span>
-    <span class="pub-meta">Department of Computer Science, Lund University — 2022</span>
-    <span class="pub-meta">Daniel Díaz, Diego Figueroa, Theodora Gaiceanu</span>
-    <div class="links">
-    <a class="link" href="{{ '/assets/docs/papers/predicting_a_subjects_card_with_the_muse_S_headband.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Predicting a Subject's Card with the Muse-S headband">PDF</a>
     </div>
 </li>
 </ul>
