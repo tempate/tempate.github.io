@@ -363,6 +363,23 @@ h2.section-heading {
 
 h1.page-heading + h2.section-heading { margin-top: 0; }
 
+/* Top-level sections of the single-page home; extra space marks the break
+   between them, and scroll-margin keeps the heading clear of the top edge. */
+.main > section { scroll-margin-top: 24px; }
+.main > section + section { margin-top: 72px; }
+
+h3.subsection-heading {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 32px 0 4px;
+}
+
+h2.section-heading + h3.subsection-heading { margin-top: 20px; }
+
 /* the 820px column runs to ~85 characters at 18px, past a comfortable measure */
 p { margin-bottom: 1em; max-width: 68ch; color: var(--ink2); }
 p:last-child { margin-bottom: 0; }

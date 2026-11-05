@@ -119,10 +119,10 @@
     </div>
 
     <nav aria-label="Main navigation">
-      <a href="/" class="{% if page.url == '/' %}active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-      <a href="/pages/research" class="{% if page.url contains 'research' %}active{% endif %}" {% if page.url contains 'research' %}aria-current="page"{% endif %}>Research</a>
-      <a href="/pages/teaching"     class="{% if page.url contains 'teaching'     %}active{% endif %}" {% if page.url contains 'teaching'     %}aria-current="page"{% endif %}>Teaching</a>
-      <a href="/pages/software"     class="{% if page.url contains 'software'     %}active{% endif %}" {% if page.url contains 'software'     %}aria-current="page"{% endif %}>Software</a>
+      <a href="/#top">Home</a>
+      <a href="/#research">Research</a>
+      <a href="/#software">Software</a>
+      <a href="/#teaching">Teaching</a>
     </nav>
   </aside>
 
@@ -174,6 +174,24 @@
       setMenu(false, mobile.matches && focusWasInSidebar);
       if (!mobile.matches && focusWasOnBurger) sidebar.querySelector('nav a').focus();
     });
+
+    // Highlight the nav link of the section currently in view; Home until the first one is reached.
+    const navLinks = [...sidebar.querySelectorAll('nav a')];
+    const sections = navLinks.map(a => document.getElementById(a.hash.slice(1))).filter(Boolean);
+    function updateActive() {
+      const current = sections.filter(s => s.getBoundingClientRect().top <= window.innerHeight / 3).pop();
+      const hash = current ? '#' + current.id : '#top';
+      navLinks.forEach(a => {
+        const active = a.hash === hash;
+        a.classList.toggle('active', active);
+        if (active) a.setAttribute('aria-current', 'location');
+        else a.removeAttribute('aria-current');
+      });
+    }
+    if (sections.length) {
+      updateActive();
+      window.addEventListener('scroll', updateActive, { passive: true });
+    }
 
     document.addEventListener('keydown', (e) => {
       if (!burger.classList.contains('open')) return;
