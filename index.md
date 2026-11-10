@@ -51,41 +51,6 @@ description: >-
 </li>
 </ul>
 
-<h3 class="subsection-heading">Theses</h3>
-<ul class="pub-list">
-<li class="pub-item" id="simple-geometry-without-coordinates">
-    <span class="pub-title">Simple Geometry without Coordinates: Building an Exotic Plane with Model Theory</span>
-    <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
-    <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
-    <div class="links">
-    <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank" rel="noopener" aria-label="Publication: Simple Geometry without Coordinates, in the University of Helsinki repository">Publication</a>
-    <a class="link" href="{{ '/assets/docs/papers/simple_geometry_without_coordinates.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Simple Geometry without Coordinates">PDF</a>
-    </div>
-</li>
-<li class="pub-item">
-    <span class="pub-title">Projective and Plane Curves: A relation between Algebra, Topology, and Complex Analysis</span>
-    <span class="pub-meta">Bachelor’s Thesis. Department of Mathematics, Universidad Politécnica de Madrid — 2022</span>
-    <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
-    <div class="links">
-    <a class="link" href="https://oa.upm.es/70899/" target="_blank" rel="noopener" aria-label="Publication: Projective and Plane Curves, in the UPM repository">Publication</a>
-    <a class="link" href="{{ '/assets/docs/papers/projective_and_plane_curves.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Projective and Plane Curves">PDF</a>
-    </div>
-</li>
-</ul>
-
-<h3 class="subsection-heading">Creative Writing</h3>
-<ul class="pub-list">
-<li class="pub-item">
-    <span class="pub-title">Mi Esperanza</span>
-    <span class="pub-meta">Madrid — 2025</span>
-    <span class="pub-meta">A short biography of my grandmother (in Spanish).</span>
-    <div class="links">
-    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Mi Esperanza">PDF</a>
-    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.epub' | relative_url }}" target="_blank" rel="noopener" aria-label="EPUB: Mi Esperanza">EPUB</a>
-    <a class="link" href="https://www.amazon.es/-/en/Mi-Esperanza-Daniel-D%C3%ADaz-Qu%C3%ADlez/dp/B0GCVS83G4/" target="_blank" rel="noopener" aria-label="Paperback: Mi Esperanza, on Amazon">Paperback</a>
-    </div>
-</li>
-</ul>
 </section>
 
 <section id="software">
@@ -192,6 +157,46 @@ description: >-
     <span class="teaching-meta">Teaching assistant · Lund University · 2021, 2022</span>
     <div class="links">
         <a class="link" href="https://www.lunduniversity.lu.se/lubas/i-uoh-lu-NUMA01" target="_blank" rel="noopener" aria-label="Course Page: course page for Computational Programming with Python">Course Page</a>
+    </div>
+</li>
+</ul>
+</section>
+
+<section id="writing">
+<h2 class="section-heading">Writing</h2>
+
+<h3 class="subsection-heading">Books</h3>
+<ul class="pub-list">
+<li class="pub-item">
+    <span class="pub-title">Mi Esperanza</span>
+    <span class="pub-meta">Madrid — 2025</span>
+    <span class="pub-meta">A short biography of my grandmother (in Spanish).</span>
+    <div class="links">
+    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Mi Esperanza">PDF</a>
+    <a class="link" href="{{ '/assets/docs/books/Mi_Esperanza__Daniel_Diaz_Quilez.epub' | relative_url }}" target="_blank" rel="noopener" aria-label="EPUB: Mi Esperanza">EPUB</a>
+    <a class="link" href="https://www.amazon.es/-/en/Mi-Esperanza-Daniel-D%C3%ADaz-Qu%C3%ADlez/dp/B0GCVS83G4/" target="_blank" rel="noopener" aria-label="Paperback: Mi Esperanza, on Amazon">Paperback</a>
+    </div>
+</li>
+</ul>
+
+<h3 class="subsection-heading">Theses</h3>
+<ul class="pub-list">
+<li class="pub-item" id="simple-geometry-without-coordinates">
+    <span class="pub-title">Simple Geometry without Coordinates: Building an Exotic Plane with Model Theory</span>
+    <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
+    <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
+    <div class="links">
+    <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank" rel="noopener" aria-label="Publication: Simple Geometry without Coordinates, in the University of Helsinki repository">Publication</a>
+    <a class="link" href="{{ '/assets/docs/papers/simple_geometry_without_coordinates.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Simple Geometry without Coordinates">PDF</a>
+    </div>
+</li>
+<li class="pub-item">
+    <span class="pub-title">Projective and Plane Curves: A relation between Algebra, Topology, and Complex Analysis</span>
+    <span class="pub-meta">Bachelor’s Thesis. Department of Mathematics, Universidad Politécnica de Madrid — 2022</span>
+    <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
+    <div class="links">
+    <a class="link" href="https://oa.upm.es/70899/" target="_blank" rel="noopener" aria-label="Publication: Projective and Plane Curves, in the UPM repository">Publication</a>
+    <a class="link" href="{{ '/assets/docs/papers/projective_and_plane_curves.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Projective and Plane Curves">PDF</a>
     </div>
 </li>
 </ul>
