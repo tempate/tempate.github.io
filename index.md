@@ -8,7 +8,7 @@ description: >-
 
 <h1 class="page-heading">Daniel Díaz Quílez</h1>
 
-<p>I am a PhD student in symbolic AI at TU Wien, studying how AI systems can learn abstractions for generalized reasoning. I earned my bachelor's in Mathematics and Computer Science at the Universidad Politécnica de Madrid, and my master's in Mathematics at the University of Helsinki.</p>
+<p>I am a PhD student at TU Wien researching how AI systems can learn abstractions for generalized reasoning. I earned my master's in Mathematics at the University of Helsinki, and my bachelor's in Mathematics and Computer Science at the Universidad Politécnica de Madrid.</p>
 
 <section id="news">
 <h2 class="section-heading">News</h2>
