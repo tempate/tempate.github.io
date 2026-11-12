@@ -32,7 +32,7 @@ description: >-
     <div class="links">
     <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/36086591/" target="_blank" rel="noopener" aria-label="Publication: Using Operative Reports to Predict Heart Transplantation Survival, on PubMed">Publication</a>
     <a class="link" href="{{ '/assets/docs/papers/using_operative_reports_to_predict_heart_transplantation_survival.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Using Operative Reports to Predict Heart Transplantation Survival">PDF</a>
-    <a class="link" href="#prophet" aria-label="Code: Prophet">Code</a>
+    <a class="link" href="https://github.com/tempate/Prophet" target="_blank" rel="noopener" aria-label="Code: Prophet on GitHub">Code</a>
     </div>
 </li>
 </ul>
@@ -46,84 +46,11 @@ description: >-
     <div class="links">
     <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" rel="noopener" aria-label="Submission: Abductive Explanations for Groups of Similar Samples, on OpenReview">Submission</a>
     <a class="link" href="{{ '/assets/docs/papers/abductive_explanations_for_groups_of_similar_samples.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="PDF: Abductive Explanations for Groups of Similar Samples">PDF</a>
-    <a class="link" href="#groupaxps" aria-label="Code: GroupAXps">Code</a>
+    <a class="link" href="https://github.com/tempate/GroupAXps" target="_blank" rel="noopener" aria-label="Code: GroupAXps on GitHub">Code</a>
     </div>
 </li>
 </ul>
 
-</section>
-
-<section id="software">
-<h2 class="section-heading">Software</h2>
-
-<div class="software-grid">
-<div class="sw-card" id="groupaxps">
-    <div class="sw-card-name">GroupAXps</div>
-    <div class="sw-card-desc">SAT-based explanations for groups of similar samples in neural network classifiers.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/tempate/GroupAXps" target="_blank" rel="noopener" aria-label="GitHub: GroupAXps">GitHub</a>
-        <a class="link" href="#group-axps" aria-label="Paper: Abductive Explanations for Groups of Similar Samples">Paper</a>
-        <div class="sw-card-year">2026</div>
-    </div>
-</div>
-
-<div class="sw-card" id="ai-atlas">
-    <div class="sw-card-name">AI Atlas</div>
-    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/tempate/AI-Atlas" target="_blank" rel="noopener" aria-label="GitHub: AI Atlas">GitHub</a>
-        <div class="sw-card-year">2026</div>
-    </div>
-</div>
-
-<div class="sw-card" id="prophet">
-    <div class="sw-card-name">Prophet</div>
-    <div class="sw-card-desc">Predicting heart transplantation survival using NLP and transformer models.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/tempate/Prophet" target="_blank" rel="noopener" aria-label="GitHub: Prophet">GitHub</a>
-        <a class="link" href="#heart-transplantation-survival" aria-label="Paper: Using Operative Reports to Predict Heart Transplantation Survival">Paper</a>
-        <div class="sw-card-year">2022</div>
-    </div>
-</div>
-
-<div class="sw-card">
-    <div class="sw-card-name">Ataxx Engine &amp; Server</div>
-    <div class="sw-card-desc">C++ engine and Node.js server for the Ataxx board game.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/Tempate/Funes" target="_blank" rel="noopener" aria-label="Engine: source for the Ataxx engine on GitHub">Engine</a>
-        <a class="link" href="https://github.com/Tempate/litaxx" target="_blank" rel="noopener" aria-label="Server: source for the Ataxx server on GitHub">Server</a>
-        <div class="sw-card-year">2020</div>
-    </div>
-</div>
-
-<div class="sw-card">
-    <div class="sw-card-name">Chess Engine — Achillees</div>
-    <div class="sw-card-desc">C engine with a peak CCRL (40/15) rating of 2250 Elo.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/Tempate/Achillees" target="_blank" rel="noopener" aria-label="GitHub: Chess Engine — Achillees">GitHub</a>
-        <div class="sw-card-year">2019</div>
-    </div>
-</div>
-
-<div class="sw-card">
-    <div class="sw-card-name">8-bit Computer</div>
-    <div class="sw-card-desc">Schematics for a custom 8-bit bitboard computer.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/Tempate/8-bit" target="_blank" rel="noopener" aria-label="GitHub: 8-bit Computer">GitHub</a>
-        <div class="sw-card-year">2018</div>
-    </div>
-</div>
-
-<div class="sw-card">
-    <div class="sw-card-name">Algorithm Atlas</div>
-    <div class="sw-card-desc">Interactive visualizations of algorithms from AI to cryptography.</div>
-    <div class="links">
-        <a class="link" href="https://github.com/Tempate/Algorithm-Atlas" target="_blank" rel="noopener" aria-label="GitHub: Algorithm Atlas">GitHub</a>
-        <a class="link" href="https://tempate.github.io/Algorithm-Atlas/" target="_blank" rel="noopener" aria-label="Website: Algorithm Atlas">Website</a>
-        <div class="sw-card-year">2017</div>
-    </div>
-</div>
-</div>
 </section>
 
 <section id="teaching">
@@ -200,4 +127,57 @@ description: >-
     </div>
 </li>
 </ul>
+</section>
+
+<section id="projects">
+<h2 class="section-heading">Projects</h2>
+
+<div class="software-grid">
+<div class="sw-card" id="ai-atlas">
+    <div class="sw-card-name">AI Atlas</div>
+    <div class="sw-card-desc">A dump of AI projects, from Connect-4 to my own PyTorch implementation.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/tempate/AI-Atlas" target="_blank" rel="noopener" aria-label="GitHub: AI Atlas">GitHub</a>
+        <div class="sw-card-year">2026</div>
+    </div>
+</div>
+
+<div class="sw-card">
+    <div class="sw-card-name">Ataxx Engine &amp; Server</div>
+    <div class="sw-card-desc">C++ engine and Node.js server for the Ataxx board game.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/Tempate/Funes" target="_blank" rel="noopener" aria-label="Engine: source for the Ataxx engine on GitHub">Engine</a>
+        <a class="link" href="https://github.com/Tempate/litaxx" target="_blank" rel="noopener" aria-label="Server: source for the Ataxx server on GitHub">Server</a>
+        <div class="sw-card-year">2020</div>
+    </div>
+</div>
+
+<div class="sw-card">
+    <div class="sw-card-name">Chess Engine — Achillees</div>
+    <div class="sw-card-desc">C engine with a peak CCRL (40/15) rating of 2250 Elo.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/Tempate/Achillees" target="_blank" rel="noopener" aria-label="GitHub: Chess Engine — Achillees">GitHub</a>
+        <div class="sw-card-year">2019</div>
+    </div>
+</div>
+
+<div class="sw-card">
+    <div class="sw-card-name">8-bit Computer</div>
+    <div class="sw-card-desc">Schematics for a custom 8-bit bitboard computer.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/Tempate/8-bit" target="_blank" rel="noopener" aria-label="GitHub: 8-bit Computer">GitHub</a>
+        <div class="sw-card-year">2018</div>
+    </div>
+</div>
+
+<div class="sw-card">
+    <div class="sw-card-name">Algorithm Atlas</div>
+    <div class="sw-card-desc">Interactive visualizations of algorithms from AI to cryptography.</div>
+    <div class="links">
+        <a class="link" href="https://github.com/Tempate/Algorithm-Atlas" target="_blank" rel="noopener" aria-label="GitHub: Algorithm Atlas">GitHub</a>
+        <a class="link" href="https://tempate.github.io/Algorithm-Atlas/" target="_blank" rel="noopener" aria-label="Website: Algorithm Atlas">Website</a>
+        <div class="sw-card-year">2017</div>
+    </div>
+</div>
+</div>
 </section>

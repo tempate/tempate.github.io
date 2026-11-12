@@ -1,5 +1,5 @@
 ---
 layout: redirect
-redirect_to: /#software
+redirect_to: /#projects
 sitemap: false
 ---
