@@ -21,7 +21,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-    color-scheme: light dark;
+    color-scheme: light;
 
     /* A hint of cream rather than a neutral off-white, so the ground reads as
        paper without reading as beige. Cards take a plain warm grey: mixing a
@@ -41,31 +41,6 @@
     --sidebar-w: 256px;
     --serif:     'Inconsolata', 'Courier New', monospace;
     --mono:      'Inconsolata', 'Courier New', monospace;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg:          #16161a;
-        --bg2:         color-mix(in oklab, var(--accent) 2%, #1c1c21);
-        --ink:         #ededea;
-        --ink2:        #d0d0d6;
-        --muted:       #a8a8ae;
-        --accent:      #e879de;
-        --accent-lt:   #ee8ce6;
-        --accent-soft: rgba(224,95,214,0.35);
-        --border:      rgba(255,255,255,0.12);
-        --card-border: rgba(255,255,255,0.08);
-        --card-shadow: rgba(0,0,0,0.2);
-    }
-
-    /* The photo is shot on a light background, so against the dark page it
-       reads as the highest-contrast object and pulls focus off the name and
-       the news. Dim it further, and give the edge a border so the bright
-       rectangle stops floating free of the background. */
-    .sidebar-photo {
-        filter: brightness(0.82);
-        border: 1px solid var(--border);
-    }
 }
 
 /* ── SURFACES ─────────────────────────────── */
