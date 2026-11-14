@@ -41,7 +41,7 @@ description: >-
 <ul class="pub-list">
 <li class="pub-item" id="group-axps">
     <span class="pub-title">Abductive Explanations for Groups of Similar Samples</span>
-    <span class="pub-meta">Department of Computer Science, Aalto University — 2026</span>
+    <span class="pub-meta">Aalto University — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tuomo Lehtonen</span>
     <div class="links">
     <a class="link" href="https://openreview.net/forum?id=M7NTM8vhB8" target="_blank" rel="noopener" aria-label="Submission: Abductive Explanations for Groups of Similar Samples, on OpenReview">Submission</a>
@@ -109,8 +109,8 @@ description: >-
 <h3 class="subsection-heading">Theses</h3>
 <ul class="pub-list">
 <li class="pub-item" id="simple-geometry-without-coordinates">
-    <span class="pub-title">Simple Geometry without Coordinates: Building an Exotic Plane with Model Theory</span>
-    <span class="pub-meta">Master’s Thesis. Department of Mathematics, University of Helsinki — 2026</span>
+    <span class="pub-title">Simple Geometry without Coordinates:<br>Building an Exotic Plane with Model Theory</span>
+    <span class="pub-meta">Master’s Thesis. University of Helsinki — 2026</span>
     <span class="pub-meta">Daniel Díaz Quílez, Tapani Hyttinen</span>
     <div class="links">
     <a class="link" href="https://helda.helsinki.fi/items/9ac01078-92ec-435b-a0a6-315ff668c7db" target="_blank" rel="noopener" aria-label="Publication: Simple Geometry without Coordinates, in the University of Helsinki repository">Publication</a>
@@ -118,8 +118,8 @@ description: >-
     </div>
 </li>
 <li class="pub-item">
-    <span class="pub-title">Projective and Plane Curves: A relation between Algebra, Topology, and Complex Analysis</span>
-    <span class="pub-meta">Bachelor’s Thesis. Department of Mathematics, Universidad Politécnica de Madrid — 2022</span>
+    <span class="pub-title">Projective and Plane Curves:<br>A relation between Algebra, Topology, and Complex Analysis</span>
+    <span class="pub-meta">Bachelor’s Thesis. Universidad Politécnica de Madrid — 2022</span>
     <span class="pub-meta">Daniel Díaz Quílez, Alfonso Zamora Saiz</span>
     <div class="links">
     <a class="link" href="https://oa.upm.es/70899/" target="_blank" rel="noopener" aria-label="Publication: Projective and Plane Curves, in the UPM repository">Publication</a>
